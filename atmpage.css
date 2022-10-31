@@ -1,0 +1,75 @@
+   
+   *{
+	   margin:0px;
+	   padding:0px;
+	   box-sizing:border-box;
+	   
+	   
+   }
+     body{
+		 
+		 background-color:#0000cc;
+		  width:100%;
+		 
+	 }
+  
+    .atm{
+	      background-color:#0000cc;
+		  width:27%;
+		  height:80px;
+		  float:left;
+		  padding:20px;
+		  font-size:35px;
+		  color:white;
+		  
+    }
+    .card-return{
+		background-color:#0000cc;
+		width:73%;
+		 height:80px;
+		 float:left;
+		 padding:20px 30px;
+		 color:white;
+		
+	}
+	.atm-layout{
+		padding:70px  20px;
+	      background-color:#0000cc;
+		  width:27%;
+		  // height:300px;
+		  float:left;
+		  color:white;
+		  font-size:30px;
+		
+    }
+	.user-option{
+		padding:70px  5px ;
+		background-color:#0000cc;
+		width:73%;
+		// height:300px;
+		 float:left;
+	}
+	
+	button{
+		width:46%;
+		margin:1%;
+		height:110px;
+		float:left;
+		background-color:#33ccff;		
+		font-size:20px;
+	}
+	
+	.quick-cash{
+		background-color:#ff1a8c;
+		width:67.85%;
+		float:right;
+		//height:30px;
+		margin:50px  ;
+		padding:20px 120px;
+		color:white;
+		
+		
+	}
+		
+		
+		
