@@ -1,0 +1,151 @@
+<html>
+   <head>
+      <title>rougfh</title>
+   </head>
+   <body>
+    <script>
+       let acNo1=123456;
+       let acNo2=456789;
+       let pwd1=123;
+       let pwd2=456;
+       var blnc1=0;
+       var blnc2=0;
+    
+    let i=0;
+    while(i<100)
+    {
+    
+       var x=prompt("please enter your account Number");
+    
+       if(x==acNo1)
+       {
+	   
+	   var y=prompt("enter your password");
+	   
+	     if(y==pwd1)
+	      {
+	           
+	             
+	             
+	                alert("Wellcome to Bhargav'S bank");
+	                 for(var p=0;p<=100;p++)
+	              {
+	                var z=prompt("1 for balance \n 2 for deposit \n 3 for withdral \n 4 for exit");
+	           
+	                switch(z){
+	                  case '1' :alert(blnc1);break;
+	                  case '2' :
+	                           var amnt=prompt("enter your amount");
+	                           blnc1+=parseInt(amnt);
+	                           alert("avalible balance is "+blnc1+" only");
+	                    	   break;
+	                  case '3' :
+	                            var amnt=prompt("enter your amount");
+	                            
+	                            if(blnc1<amnt)
+	                            {
+	                            alert("invalid amount");
+	                            } 
+	                            else
+	                            {
+	                            blnc1-= amnt;
+	                            alert(blnc1); 
+	                            }
+	                            break;
+	                  case '4' :alert("logged off successfully..");break;
+	                  
+	                  default :alert("Invalid input");break;
+	                 }
+	                 if(z==4)
+	                 {
+	                  i=0;
+	                  break;
+	                 }
+	          
+	              }
+	             
+	     }     
+	     
+	     else
+	     {
+	       
+	        alert("invalid password");
+	       i++;
+	       
+	     }
+	    	   
+       }
+       
+       else if(x==acNo2)
+       {
+	  
+	   var y=prompt("enter your password");
+	   
+	     if(y==pwd2)
+	      {
+	           
+	             
+	             
+	                alert("Wellcome to Bhargav'S bank");
+	                 for(var p=0;p<=100;p++)
+	              {
+	                var z=prompt("1 for balance \n 2 for deposit \n 3 for withdral \n 4 for exit");
+	           
+	                switch(z){
+	                  case '1' :alert(blnc2);break;
+	                  case '2' :
+	                           var amnt=prompt("enter your deposit amount");
+	                           blnc2+=parseInt(amnt);
+	                           alert(blnc2);
+	                    	   break;
+	                  case '3' :
+	                            var amnt=prompt("enter your withdrawl amount");
+	                            
+	                            if(blnc2<amnt)
+	                            {
+	                            alert("insufficient amount");
+	                            } 
+	                            else
+	                            {
+	                            blnc1-= amnt;
+	                            alert("avalible balance is "+blnc2+" only"); 
+	                            }
+	                            break;
+	                  case '4' :alert("logged off successfully..");break;
+	                  
+	                  default :alert("Invalid input");break;
+	                 }
+	                 if(z==4)
+	                 {
+	                  i=0;
+	                  break;
+	                 }
+	          
+	              }
+	             
+	     }     
+	     
+	     else
+	     {
+	       
+	        alert("invalid password");
+	        i++;
+	       
+	     }
+	    	   
+       }
+       
+       
+       else
+       {
+      	
+      	  alert("invalid account Number");
+      	  i++;
+       } 
+    }
+    
+   
+   </script>
+  </body>
+</html>   
+  
