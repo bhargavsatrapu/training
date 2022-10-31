@@ -1,0 +1,110 @@
+<html>
+ <head>
+  <title>atm</title>
+ </head>
+ <body >
+  <script>
+       let acNo1=123456;let acNo3=147258;
+       let acNo2=456789;let acNo4=258369;
+       
+       let pwd1=123;let pwd3=147;
+       let pwd2=456;let pwd4=258;
+       
+       var blnc1=100;var blnc3=300;
+       var blnc2=200;var blnc4=400;
+      
+     function uAcno(){
+      
+      var uac=prompt("please enter your account Number");
+      if(uac==acNo1){
+         
+          password(pwd1,blnc1);
+          
+      }
+      else if(uac==acNo2){  
+          
+          password(pwd2,blnc2);
+          
+      }  
+      else if(uac==acNo3){   
+         
+          password(pwd3,blnc3);
+          
+      }  
+      else if(uac==acNo4){    
+        
+          password(pwd4,blnc4);
+          
+      }  
+      else {
+        alert("invalid acNo");      
+        uAcno();
+      }  
+     } 
+      
+       
+   function password(p,b){
+   
+      var upwd=prompt("please enter your password");
+      if(upwd==p){
+         alert("valid pwd"); 
+         condi(b);
+      }
+      else{
+         alert("invalid pwd"); 
+         uAcno();
+      }   
+   
+   }
+   
+   
+    function condi(b){
+         
+        var optn=prompt("1 for balance \n 2 for deposit \n 3 for withdral \n 4 for exit");
+        
+        switch(optn){
+         
+           case '1':balance(b);break;
+           case '2':diposit(b);break;
+           case '3':withdrawl(b);break;
+           case '4':logout();break;
+           default: alert("invalid input");condi(b);       
+        }       
+    }
+
+     
+     function balance(b){
+     alert(`avalible balance is ${b}`)
+     condi(b);
+     }
+     
+     function diposit(b){
+        var amnt=prompt("Enter your amount to be deposit");
+        b+=parseInt(amnt);
+        alert(`your avalible balance is ${b}`);
+        condi(b);
+     }
+     
+     function withdrawl(b){
+     
+       var amnt=prompt("Enter your amount to be widthdrawl");
+       if(amnt>b){
+         alert(`insufficient amount`);condi(b);
+       }
+       else{
+         b-=parseInt(amnt);
+         alert(`collect the amount${b}`);condi(b);
+       }
+    }
+     
+    function logout(){
+      alert("thank you");
+      uAcno();
+    }
+    
+  uAcno();
+  
+  </script>
+  
+ </body>
+</html>
