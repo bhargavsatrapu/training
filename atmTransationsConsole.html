@@ -1,0 +1,111 @@
+<html>
+     <head>
+           <title>rougfh</title>
+     </head>
+
+     <body>
+          <script>
+		     
+			  var acno=["123456","456789","147258","258369"];
+
+              var pwd=["123","456","147","258"];
+
+              var balance=[100,200,300,400];
+		   
+		      var transations=[ [ ],[ ],[ ],[ ],];
+
+          function accValidation(){   
+
+               var uac=prompt("please enter your account Number");
+
+               var upwd=prompt("please enter your password");
+
+               var i=0;
+               while(i<acno.length){
+                     if(acno[i]==uac) {
+					 
+                          if(pwd[i]==upwd){
+						  
+                                alert("valid pwd");
+                                 condi(i);
+                           }
+                         else{
+                                alert("invalid password");
+                                accValidation();
+                         }
+
+                      }
+                      else{
+                            if(i<acno.length-1){
+                                     i++;
+                               }
+                            else{
+                                   alert("wrong acc No");
+                                    accValidation();
+                                }
+                        }
+                }
+
+
+            }
+
+      function condi(b){ 
+                 var optn=prompt("1 for balance \n 2 for deposit \n 3 for withdral \n 4 for  transations \n 5 for exit"); 
+               switch(optn){                     
+                         case '1':balnce(b);break;         
+                         case '2':diposit(b);break;        
+                         case '3':withdrawl(b);break;   
+                         case '4':tran(b);break;	   
+                        case '5':logout();break;    
+                        default: alert("invalid input");condi(b); 
+             }     
+        }
+
+      function balnce(b){ 
+            alert(`avalible balance is ${balance[b]}`)  
+             condi(b);    
+          } 
+
+          function diposit(b){   
+                    var amnt=prompt("Enter your amount to be deposit");    
+                      balance[b]+=parseInt(amnt);    
+                       alert(`your avalible balance is ${balance[b]}`); 
+
+                       transations[b].push({type:"d",amount:amnt});				 
+			           condi(b);
+            } 
+
+         function withdrawl(b){     
+              var amnt=prompt("Enter your amount to be widthdrawl");     
+         if(amnt>balance[b]){     
+               alert(`insufficient amount`);
+		       tran(b);
+		         condi(b); 
+         }   
+         else{   
+          balance[b]-=parseInt(amnt);
+          alert(`your balance is ${balance[b]}`);
+		  
+		  transations[b].push({type:"w",amount:amnt});	
+		  
+          condi(b); 
+          } 
+        }  
+
+        function logout(){  
+        alert("thank you");  
+           accValidation();
+     }    
+	 
+	 function tran(b){
+	  console.log(transations[b]);
+	  alert(uksdhuhvhv);
+	 }
+	
+	 
+        accValidation();
+		  
+          </script>  
+     </body>
+   
+<html>

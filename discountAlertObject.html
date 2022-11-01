@@ -1,0 +1,112 @@
+<html>
+     <head>
+           <title>rougfh</title>
+     </head>
+
+     <body>
+          <script>
+		     
+			 var items=[
+			               { product:"bat", price:1300},
+						   
+						   { product:"cock", price:180},
+						   
+						   { product:"wickets", price:999},
+						   
+						   { product:"ball", price:390},
+						   
+						   { product:"glows", price:800},
+						   
+						   { product:"shirt", price:400},
+						   
+						   { product:"coat", price:1500},
+						   
+						   { product:"headset", price:180},
+						   
+						   { product:"speakers", price:1900},
+						   
+						   { product:"pen", price:90},  ]
+						   
+						   var cart=[ ];
+						   
+						   let c=" ";
+						   
+						   for(let  i=0;i<items.length;i++){
+						   
+						   let z=i;
+						   
+						   var  x=++z +":"+ items[i].product+" price :"+items[i].price;
+						   c+=x+"\n";
+						   
+						   }
+						   
+						    
+						   
+						   for(let i=0;i<5;i++){
+						   
+						       var  option=prompt(c);
+						   
+						       if(option=="end"){
+						   
+						       break;
+						   
+						       }
+							   else if(option>10){
+							   }
+				
+			                   else{
+			
+			                    cart.push(items[parseInt(option)-1]);
+																		
+			                  }
+						   }
+						   
+						    
+						   var sum=0;
+						   
+						   for(let j=0;j<cart.length;j++){
+						   
+						     sum+=cart[j].price;
+							 
+						   }
+						   
+						   
+						  
+						   
+						   let d="";
+						    for(let  i=0;i<cart.length;i++){
+						   
+						   let z=i;
+						   
+						   var  x=++z +":"+ cart[i].product+" price :"+cart[i].price;
+						   d+=x+"\n";
+						   
+						   }
+						   alert("your products are  \n "+d);
+						   
+						   
+						   if(sum>2000){
+						   
+                                  if(cart.length<5){
+             
+                                     var total=(sum*90)/100;
+                                    alert(`Number of products is ${cart.length} \nTotal cost ${sum} \n10% discount is available \n   total amount :${total}`);
+                                }
+			 
+                               else{
+             
+                                     var total=(sum*80)/100;
+                                    alert(`Number of products is ${cart.length} \nTotal cost ${sum}\n20% discount is available\n   total amount :${total}`);             
+                             }
+                            }
+		  
+                          else{
+						  
+                                  alert(`Number of products is ${cart.length} \nTotal cost ${sum}\nNo discount is available \n   total amount :${sum}`);
+                           }
+		  
+          </script>  
+     </body>
+   
+<html>
+
