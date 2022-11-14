@@ -1,0 +1,238 @@
+
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+
+
+ .fPage{
+	 background-color:#182ed6;
+	 width:100%;
+	 height:100vh;
+	 display:none;
+ }
+ 
+ .login-btn{
+	 
+	 height:100px;
+	 width:40%;
+	 margin-top:350px;
+	 margin-left:20%;
+	 
+ }
+  .register-btn{
+	 
+	 height:100px;
+	 width:40%;
+	 margin-top:30px;
+	 margin-left:20%;
+ }
+ 
+ 
+ .sPage{
+       background-image:linear-gradient(to right,#2f28ed ,#9d0bd6);
+	   display:none;
+	   
+       }
+       
+       
+       .continer{
+      
+       margin:250px 35% 0px 35%;
+       background-color:#fafaf2;
+       border-radius:20px;
+       width:29%;
+       height:400px;
+       }
+       
+       h3{
+        padding:20px;
+        font-family:Schoolbook;
+       }
+       
+       
+       input{
+       height:40px;
+       width:75%;
+       border: 2px solid white;
+       border-radius:15px;
+       padding:20px 25px;
+       margin:10px;       
+       }
+       
+       
+       .button{
+       background-image:linear-gradient(to right,#2f28ed ,#9d0bd6);
+       width:75%;
+       height:35px;     
+       color:white;
+       border: 2px solid white;
+       }
+	   
+	   .reg{
+	        width:45%;
+		height:30px;
+		float:left;	
+		border-radius:5px;
+                background-color:white;	
+	        border: 2px solid white;
+	   }
+	    .for{
+	    width:45%;
+		height:30px;
+		float:right;
+        margin-right:4%;
+       border-radius:5px;
+       background-color:white;		
+	    border: 2px solid white;
+	   }
+	   
+	   
+	   .tpage{
+		 
+		 background-color:#0000cc;
+		  width:100%;
+		  display:none;
+		 
+	 }
+  
+    .atm{
+	      background-color:#0000cc;
+		  width:27%;
+		  height:80px;
+		  float:left;
+		  padding:20px;
+		  font-size:35px;
+		  color:white;
+		  
+    }
+    .card-return{
+		background-color:#0000cc;
+		width:73%;
+		 height:80px;
+		 float:left;
+		 padding:20px 30px;
+		 color:white;
+		
+	}
+	
+	.atm-layout{
+		padding:70px  20px;
+	      background-color:#0000cc;
+		  width:27%;
+		  // height:300px;
+		  float:left;
+		  color:white;
+		  font-size:30px;
+		
+    }
+	.user-option{
+		padding:70px  5px ;
+		background-color:#0000cc;
+		width:73%;
+		// height:300px;
+		 float:left;
+	}
+	
+	.tbutton{
+		width:46%;
+		margin:1%;
+		height:110px;
+		float:left;
+		border:none;
+		background-color:#33ccff;		
+		font-size:20px;
+		color:white;
+	}
+	.tbutton:hover{
+	
+		background-color: #005ce6;
+		color:white;
+		
+	}
+	
+	
+	.foPage{
+		 background-color:#182ed6;
+	   width:100%;
+	   height:100vh;
+	   display:none;
+	}
+	
+	.amountd-area{
+		 height:100px;
+	 width:40%;
+	 margin-top:350px;
+	 margin-left:20%;
+	}
+	
+	.deposite-btn{
+		 height:100px;
+	    width:40%;
+	   margin-top:30px;
+	   margin-left:20%;
+	}
+	
+	
+	.fiPage{
+		 background-color:#182ed6;
+	   width:100%;
+	   height:100vh;
+	 display:none;
+	}
+	
+	
+	.amountw-area{
+		 height:100px;
+	 width:40%;
+	 margin-top:350px;
+	 margin-left:20%;
+	}
+	
+	.withdrawl-btn{
+		 height:100px;
+	    width:40%;
+	   margin-top:30px;
+	   margin-left:20%;
+	}
+	
+	
+	
+	.lpage{
+		display:none;
+		height:100vh;
+		width:100%;
+		background-color: #3412cc;
+	}
+	
+	th{
+		background-color: #4dff4d;
+		font-size:28px;
+	}
+	td{
+		background-color: #3412cc;
+		font-size:20px;
+		padding-left:100px;
+	}
+	
+	 
+	.tClose{
+		margin-left:45%;
+		//margin-top:80vh;
+		font-size:30px;
+		color:blue;
+		border-radius:10px;
+		background-color:#329ea8;
+		border:none;
+	}
+	
+	.tClose:hover{
+		background-color:#8521bf;
+	}
+	
+	.display{
+		display:block;
+	}
