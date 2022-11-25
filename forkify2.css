@@ -1,0 +1,250 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	background-image:linear-gradient(to bottom right,#fbdb89,#f48982,#f38e82);
+}
+.container{
+	width:1000px;
+	margin:20px auto;
+	background-color:white;
+	border-radius:10px;
+}
+.clear{
+	clear:both;
+}
+
+.container-header{
+	width:100%;
+	background-color:#f2f2f2;
+	border-radius:10px 10px 0px 0px;
+}
+
+.logo-container{
+	padding:10px;
+	width:20%;
+	background-color:inherit;
+	overflow:auto;
+	border-radius:10px 10px 0px 0px;
+	float:left;
+}
+
+.logo-image{
+	float:left;
+	width:100%;
+	background-color:inherit;
+	padding:0.5% 2.5%;
+}
+
+.header-search-bar{
+	padding:20px;
+	background-color:inherit;
+	height:inherit;
+	float:left;
+	width:39%;
+}
+
+.search-box{
+	float:left;
+	width:67%;
+	border-radius:25px;
+	border:none;
+	height:5vh;
+}
+
+.search-button{
+	float:left;
+	background-color:inherit;
+	width:33%;
+	border-radius:25px;
+	background-image:linear-gradient(to bottom right,#fbdb89,#f48982,#f38e82);
+    height:5vh;
+	position:relative;
+	right:10%;
+	padding-top:0.8vh;
+}
+
+.search-image{
+	height:2.3vh;
+}
+
+.search-txt{
+	color:white;
+	position:relative;
+	bottom:0.6vh;
+	font-size:18px;
+}
+
+.header-menu{
+	background-color:inherit;
+	height:inherit;
+	float:left;
+    width:41%;
+	padding:3vh;
+}
+
+.recipe{
+	padding-left:10%;
+	float:left;
+}
+
+.recipe-header-image{
+	height:3.3vh;
+}
+
+.add-recipe-txt{
+	position:relative;
+	bottom:1vh;
+}
+
+
+.bookmark{
+	padding-left:5%;
+	float:left;
+	position:relative;
+	top:0.4vh;
+}
+
+.bookmark-image{
+	height:2.3vh;
+}
+
+.bookmark-txt{
+	position:relative;
+	bottom:0.5vh;
+}
+
+.container-left{
+	width:35%;
+	background-color:white;
+	float:left;
+}
+
+.container-right{
+	width:65%;
+	background-color:#f2f2f2;
+	float:right;
+}
+
+.containor-image{
+	position:relative;
+	width:100%;
+	height:32%;
+	background-image:url("Screenshot from 2022-11-23 17-36-52.png");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.recipe-name-0{
+background-image:linear-gradient(to bottom right,#fbdb89,#f48982,#f38e82);
+height:5vh;
+padding:1vh;
+width:40%;
+position:absolute;
+bottom:5vh;
+left:30%;
+transform:skewY(-8deg);
+color:white;
+}
+
+.recipe-name-1{
+background-image:linear-gradient(to bottom right,#fbdb89,#f48982,#f38e82);
+height:5vh;
+padding:1vh;
+width:30%;
+position:absolute;
+bottom:0vh;
+left:35%;
+transform:skewY(-8deg);
+color:white;
+}
+
+.recipe-menu{
+	width:100%;
+	background-color:inherit;
+	border:none;
+	padding:2%;
+}
+
+.recipe-menu:hover{
+	background-color:#f2e444;
+}
+
+.recipe-image{
+	float:left;
+	width:20%;
+	background-color:inherit;
+}
+
+.recipe-content{
+	float:left;
+	width:80%;
+	background-color:inherit;
+	padding-top:5%;
+}
+
+.menu-image{
+	 width:75%;
+	 border-radius:50%;
+}
+
+.service-bar{
+	padding-top:4vh;
+	width:100%;
+	background-color:#f2f2f2;
+	padding-bottom:3vh;
+}
+
+.time{
+	float:left;
+	width:30%;
+}
+
+.servings{
+	float:left;
+  width:40%;
+}
+
+.icons{
+	float:left;
+	height:3vh;
+}
+
+.bookmark-icon{
+	float:left;
+	padding-left:20%;
+}
+
+
+.ingredient-bar{
+	width:100%;
+	
+	background-color:#f2f1dc;
+	padding:2vh;
+}
+
+table{
+	width:100%;
+}
+
+td{
+	width:50%;
+}
+
+
+.bottom-right{
+	
+	width:100%;
+	background-color:#f2f2f2;
+}
+
+.direction-button{
+	height:4vh;
+	border-radius:20px;
+	width:150px;
+	background-image:linear-gradient(to bottom right,#fbdb89,#f48982,#f38e82);
+	margin-bottom:10px;
+}
