@@ -273,15 +273,17 @@ text-transform:uppercase;
 height:22px;
 }
 
-.icons-plus{
-height:22px;
-}
-
 .icons-minus{
 height:19px;
+padding-left:3px;
+}
+
+.icons-plus{
+height:22.5px;
 position:relative;
-bottom:1.9px;
+top:2px;
 right:4px;
+padding-left:1px;
 }
 
 .icons-bookmark{
