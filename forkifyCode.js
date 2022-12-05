@@ -41,36 +41,33 @@ var pageNo=1;
  
  function pagePrevious(){
 	  pageNo--;
-	  previousPage.innerHTML=`page ${pageNo-1}`;
-	  nextPage.innerHTML=`page ${pageNo+1}`;
+
 	 if((pageNo*10)==10){
 		 previousButton.style.display="none";
 	     nextButton.style.display="block";
-	    recipeList.innerHTML="";
-	    dispayRecipeMenu();
-		
 	 }else{
 	  nextButton.style.display="block";
-	  recipeList.innerHTML="";
-	  dispayRecipeMenu(); 
 	 }
+	 previousPage.innerHTML=`page ${pageNo-1}`;
+	 nextPage.innerHTML=`page ${pageNo+1}`;
+	 recipeList.innerHTML="";
+	 dispayRecipeMenu(); 
  }
  
  
   function pageNext(){
 	   pageNo++;
-	   previousPage.innerHTML=`page ${pageNo-1}`;
-	   nextPage.innerHTML=`page ${pageNo+1}`;
+	 
 	   if((pageNo*10)>=jData.count){
 		 nextButton.style.display="none";
 	     previousButton.style.display="block";
-	     recipeList.innerHTML="";
-	     dispayRecipeMenu();
 	   }else{
 	    previousButton.style.display="block";
-	    recipeList.innerHTML="";
-	    dispayRecipeMenu();
 	   }
+	   previousPage.innerHTML=`page ${pageNo-1}`;
+	   nextPage.innerHTML=`page ${pageNo+1}`;
+	   recipeList.innerHTML="";
+	   dispayRecipeMenu();
  }
  
  
