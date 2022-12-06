@@ -31,12 +31,11 @@ var pageNo=1;
 															</div>
 															<div class="recipe-content">
 																<h4>${jData.recipes[i].title}</h4>
-																<p>${jData.recipes[i].publisher}g</P>
+																<p>${jData.recipes[i].publisher}</P>
 															</div>
 													</div>      
 												</li>	`
    }
-   
  }
  
  function pagePrevious(){
