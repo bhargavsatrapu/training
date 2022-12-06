@@ -20,7 +20,13 @@
  
  noOfPage=Math.ceil(jData.recipes.length/pageSize);
  startingFunction();
-
+ 
+ /*
+    1.this function initiate all functions.
+    2.This function doesn't require any parameters.
+   3.It doesn't have return type.
+   4.it is called at globel space.
+ */
 function startingFunction(){
 	
 	if(pageNo==noOfPage){
@@ -37,7 +43,10 @@ function startingFunction(){
 }
  
  
- 
+ /*1. This function is called at startingFunction() function.
+   2.This function doesn't require any parameters.
+   3.It doesn't have return type.
+   4.this function displays recipe items in recipe-list.   */
  function dispayRecipeMenu(){
    for(var i=lowLimit;i<upLimit;i++){
 	   recipeList.innerHTML+=`<li>
@@ -55,8 +64,10 @@ function startingFunction(){
    
  }
  
- 
-
+ /*
+ 1.this function called at onclick event listener.
+ 2.this function shifts to previous page.
+ */
  function pagePrevious(){
 	  pageNo--;
 	  
@@ -73,6 +84,11 @@ function startingFunction(){
  }
  
  
+ 
+  /*
+ 1.this function called at onclick event listener.
+ 2.this function shifts to next page.
+ */
   function pageNext(){
 	   pageNo++;
 	   
