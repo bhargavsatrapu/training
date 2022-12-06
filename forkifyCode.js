@@ -4,8 +4,8 @@
  var pageNo=1;
  var pageSize=10;
  var noOfPage;
- var lLimit;
- var uLimit;
+ var lowLimit;
+ var upLimit;
   
  var recipeList=document.querySelector(".recipe-list");
  var previousButton=document.querySelector(".previous-button");
