@@ -1,125 +1,129 @@
 <html>
-	<head>
-		<title>atm...</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	
-		<div class="fPage  display">
-		<marquee scrollamount="10"><p class="welcome-quot"><i>welcome to ATM....</i></p></marquee>
-			<button class="login-btn">LOGIN</button><br>
-			<button class="register-btn">Register</button>
-		
-		</div>
-		
-		
-	
-   <div class="sPage">
-      <div class="continer">
-          <h3 align=center>LOGIN NOW</h3> 
-          <form>
-          
-          <center>          
-             <input type="text" value="123456" name="AccNo" id="AccNo"><br>
-             <input type="password" value="akhi@123" name="pswd" id="pswd">         
-          </center>
-          <center>
-           <div>
-             <div >
-                 <button class="reg" type="button" float="left">Register</button>
-             </div>
-             <div>    
-                 <button class="for" type="button">Forgot password</button>
-             </div><br><br><br><br>
-           </div>
-           </center>  
-           
-          <center>          
-             <button class="button" type="button">LOGIN</button>           
-          </center>
-          
-          </form>
-		  <div class="modal-vlidation">
-		   	<div class="modal-vlidation-text">
+
+<head>
+	<title>atm...</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<div class="fPage  display">
+	<marquee scrollamount="10">
+		<p class="welcome-quot"><i>welcome to ATM....</i></p>
+	</marquee>
+	<button class="login-btn">LOGIN</button><br>
+	<button class="register-btn">Register</button>
+
+</div>
+
+
+
+<div class="sPage">
+	<div class="continer">
+		<h3 align=center>LOGIN NOW</h3>
+		<form>
+
+			<center>
+				<input type="text" value="123456" name="AccNo" id="AccNo"><br>
+				<input type="password" value="akhi@123" name="pswd" id="pswd">
+			</center>
+			<center>
+				<div>
+					<div>
+						<button class="reg" type="button" float="left">Register</button>
+					</div>
+					<div>
+						<button class="for" type="button">Forgot password</button>
+					</div><br><br><br><br>
+				</div>
+			</center>
+
+			<center>
+				<button class="button" type="button">LOGIN</button>
+			</center>
+
+		</form>
+		<div class="modal-vlidation">
+			<div class="modal-vlidation-text">
 				<p id="error-text"></p>
 			</div>
 			<div class="modal-vlidation-close">
 				<span class="modal-close">&times;</span>
-		  </div>
-      </div>
+			</div>
+		</div>
 	</div>
 </div>
-	
-	<div class="tPage">
-		<div class="atm" border="1">
-	        <p><b>ATM</b></p>
-	  </div>
-	  
-	  <div  class="card-return">
-	  <p  style="float:right;" id="logout-btn"><b>LOG OUT</b></p>
-	  </div>
-	  
-	  <div class="atm-layout">
-	       
-		   <h3  style="color:#33ccff;font-size:20px;">Welcome</h3>
-			   <p id="sAc"><b>Akhil</b></p><br><br>
-			<h3 style="color:#33ccff;font-size:20px;">Account  bal</h3>
-			   <p id="sBl"><b>$2.380</b></p><br><br>
-			<h3 style="color:#33ccff;font-size:20px;">Savings</h3>
-			   <p><b>$795</b></p> 
-	  </div>
-	  <div class="user-option">
-	         <button type="button" class="tButton">Deposite</button>
-             <button type="button" class="tButton">Withdrawl</button>	
-             <button type="button" class="tButton">transition</button>             
-	  </div>
+
+<div class="tPage">
+	<div class="atm" border="1">
+		<p><b>ATM</b></p>
 	</div>
-	
-	
-	<div class="foPage">
-	
+
+	<div class="card-return">
+		<p style="float:right;" id="logout-btn"><b>LOG OUT</b></p>
+	</div>
+
+	<div class="atm-layout">
+
+		<h3 style="color:#33ccff;font-size:20px;">Welcome</h3>
+		<p id="sAc"><b>Akhil</b></p><br><br>
+		<h3 style="color:#33ccff;font-size:20px;">Account bal</h3>
+		<p id="sBl"><b>$2.380</b></p><br><br>
+		<h3 style="color:#33ccff;font-size:20px;">Savings</h3>
+		<p><b>$795</b></p>
+	</div>
+	<div class="user-option">
+		<button type="button" class="tButton">Deposite</button>
+		<button type="button" class="tButton">Withdrawl</button>
+		<button type="button" class="tButton">transition</button>
+	</div>
+</div>
+
+
+<div class="foPage">
+
 	<div class="foPage-container">
-	         <h1 align="center">Enter amount</h1>
-	        <input type="text" class="amountd-area"><br>
-			<button class="deposite-btn">Diposite</button>
-		</div>
-	<button class="close-deposit-btn">cancle</button>
+		<h1 align="center">Enter amount</h1>
+		<input type="text" class="amountd-area"><br>
+		<button class="deposite-btn">Diposite</button>
 	</div>
-	
-	<div class="fiPage">
+	<button class="close-deposit-btn">cancle</button>
+</div>
+
+<div class="fiPage">
 	<div class="fiPage-container">
-	<h1>Enter amount</h1>
-	  <input type="text" class="amountw-area"><br>
-			<button class="withdrawl-btn">Withdrawl</button>
-	
+		<h1>Enter amount</h1>
+		<input type="text" class="amountw-area"><br>
+		<button class="withdrawl-btn">Withdrawl</button>
+
 	</div>
 	<button class="close-withdrawl-btn">cancle</button>
-	</div>
-	
-	
-	
-	<div class="lPage">
-	
+</div>
+
+
+
+<div class="lPage">
+
 	<button class="history-diposit">Diposit history</button>
 	<button class="history-withdrawl">withdrawl history</button>
-	
-		<table width=100% id="his">
-		<tr >		
-		    <th>S.No</th>
+
+	<table width=100% id="his">
+		<tr>
+			<th>S.No</th>
 			<th>Transation Type</th>
 			<th>Transation amount</th>
 			<th>a/c Balance</th>
 		</tr> <br>
 	</table>
 	<button class="tClose " align="center">close</button>
-	</div>
-	
-	
-	
-	
-	
-	<script src="script.js">
-	
-	</script>
-		
-	</body>
+</div>
+
+
+
+
+
+<script src="script.js">
+
+</script>
+
+</body>
+
 </html>
