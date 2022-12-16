@@ -1,0 +1,117 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c7ddcc;
+}
+.display{
+    display:none;
+}
+.second-page{
+    width:100%;
+}
+.container-2{
+    width:700px;
+    margin:40px auto 0px auto;
+    background-color:#75c9b7;
+    border-radius:8px;
+}
+.contact-info{
+    text-align: center;
+    color: rgb(130, 247, 62);
+    padding: 10px 0px 15px 0px;
+}
+.ph-no{
+    width:300px;
+    height: 36px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin:10px;
+    padding-left: 12px;
+}
+.f-name{
+    width:300px;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin:10px;
+    padding-left: 12px;
+}
+.l-name{
+    width:300px;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin:10px;
+    padding-left: 12px;
+}
+.e-mail{
+    width:300px;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin:10px;
+    padding-left: 12px;
+}
+.dob{
+    width:200px;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin:10px;
+    padding-left: 12px;
+}
+.submit-button{
+    text-align: center;
+    margin:10px auto;
+    position: relative;
+    left:60%;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: bisque;
+}
+.view-data{
+    text-align: center;
+    margin:10px auto;
+    position: relative;
+    left:60%;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: bisque;
+}
+.third-page{
+    width:100%;
+}
+.container-3{
+    width:700px;
+    margin:40px auto 0px auto;
+    background-color:#75c9b7;
+    border-radius:8px;
+}
+
+.th-sNo{
+   width:50px;
+}
+.th-name{
+    width:150px;
+}
+.th-phNo{
+    width:180px;
+}
+.th-eMail{
+    width:180px;
+}
+td{
+    height:30px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.th{
+    height:40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
