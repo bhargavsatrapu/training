@@ -1,0 +1,167 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.clearflex{
+    clear:both;
+}
+.containor{
+    margin-top: 70px;
+    height: 700px;
+    background-color: rgb(206, 219, 206);
+    border-radius: 12px;
+   
+}
+
+.header{
+    height: 45px;
+    background-color: rgb(247, 231, 238);
+}
+.orders{
+    width: 100px;
+    background-color: rgb(141, 137, 161);
+    float:left;
+    height: inherit;
+    text-align: center;
+    padding: 10px;
+}
+.current{
+    width: 100px;
+    background-color: rgb(196, 235, 202);
+    float:left;
+    height: inherit;
+    text-align: center;
+    padding: 10px;
+}
+
+.container-body{
+    background-color: rgb(223, 170, 25);
+    height: 650px; 
+    
+}
+.body-left{
+    width: 60%;
+    height: 650px;
+    background-color: rgb(192, 233, 231);
+    float: left;
+    padding: 25px;
+    overflow: auto;
+}
+.item{
+    width:155px;
+    height:70px;
+    border-bottom: 4px solid rgb(247, 183, 227);
+    float: left;
+    padding:10px;
+    text-align: center;
+    margin: 7px 3px;
+    line-height: 24px;
+    background-color:	#FBFFFF;
+}
+.body-right{
+    width: 40%;
+    height: inherit;
+    background-color: rgb(247, 183, 227);
+    float: left;
+    padding: 30px;
+    overflow: auto;
+    position:relative;
+}
+
+.clear{
+    float:right;
+    color: rgb(36, 36, 138);
+    font-weight: bold;
+}
+.ph_no{
+    width: 100%;
+    margin-top: 16px;
+    height: 29px;
+}
+.billing-table{
+    width: 100%;
+    margin-top: 10px;
+}
+.items{
+    text-align: left;
+    width: 50%;
+}
+.quantity{
+    text-align: left;
+    width: 30%;
+}
+.price{
+    text-align: left;
+    width: 20%;
+}
+th ,td{
+    border-bottom: 2px solid black;
+    padding: 5px 0px 3px 0px;
+}
+
+.enter-quantity{
+    width: 90px;
+    height: 30px;
+}
+
+.order-submit{
+    position:absolute;
+    bottom:0px;
+    width: 90%;
+    height: 50px;
+    background-color: blueviolet;
+}
+.order-ticket{
+    height: 50px;
+    width: 50%;
+    float: left;
+    background-color: rgb(23, 166, 233);
+    font-weight: bold;
+    color: #FBFFFF;
+    text-align: center;
+    padding-top:15px;
+}
+.charge{
+    height: 50px;
+    width: 50%;
+    float: left;
+    background-color: rgb(54, 202, 24);
+    font-weight: bold;
+    color: #FBFFFF;
+    text-align: center;
+    padding-top:15px;
+}
+.container-body2{
+    display: none;
+}
+
+
+.billing-table{
+    width: 70%;
+    margin: auto 25px;
+}
+.popup-modal{
+    width: 40%;
+    margin:100px auto;
+    background-color: blanchedalmond;
+    display: none;
+}
+.close-cross{
+    float:right;
+    padding-right: 10px;
+    font-size: 40px;
+}
+.moal-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.modal-p{
+    padding: 0px 0px 0px 50px;
+    line-height: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
