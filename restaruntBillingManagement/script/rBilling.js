@@ -66,6 +66,7 @@ function displayMenu() {
 }
 
 function addCart(index) {
+
     orderdItems.innerHTML = "";
     orderItems.push({
         "name": menuItems[index].name,

@@ -30,6 +30,7 @@
     font-size: 18px;
     text-transform: capitalize;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .current{
     width: 100px;
@@ -41,6 +42,7 @@
     font-size: 18px;
     text-transform: capitalize;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .container-body{
@@ -159,6 +161,7 @@ th ,td{
     color: aliceblue;
     background-color: darkolivegreen;
     border-radius: 8px;
+     cursor: pointer;
 }
 .popup-modal{
     width: 40%;
