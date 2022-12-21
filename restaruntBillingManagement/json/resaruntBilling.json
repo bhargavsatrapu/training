@@ -1,0 +1,875 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Idle",
+      "price": 40
+    },
+    {
+      "id": 2,
+      "name": "chapathi",
+      "price": 60
+    },
+    {
+      "id": 3,
+      "name": "samosa",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "name": "pizza",
+      "price": 240
+    },
+    {
+      "id": 5,
+      "name": "ice cream",
+      "price": 90
+    },
+    {
+      "id": 6,
+      "name": "burger",
+      "price": 180
+    },
+    {
+      "id": 7,
+      "name": "egg noodles",
+      "price": 120
+    },
+    {
+      "id": 8,
+      "name": "checken noodles",
+      "price": 160
+    },
+    {
+      "id": 9,
+      "name": "mutton curry",
+      "price": 200
+    },
+    {
+      "id": 10,
+      "name": "checken curry",
+      "price": 170
+    },
+    {
+      "id": 11,
+      "name": "Iveg saladle",
+      "price": 145
+    },
+    {
+      "name": "chicken wings",
+      "price": 240,
+      "id": 12
+    },
+    {
+      "name": "mutton wings",
+      "price": 360,
+      "id": 13
+    },
+    {
+      "name": "kaliflower curry",
+      "price": 150,
+      "id": 14
+    },
+    {
+      "name": "veg non",
+      "price": 120,
+      "id": 15
+    },
+    {
+      "name": "buttor non",
+      "price": 180,
+      "id": 16
+    },
+    {
+      "name": "egg chat",
+      "price": 180,
+      "id": 17
+    },
+    {
+      "name": "checken chat",
+      "price": 190,
+      "id": 18
+    },
+    {
+      "name": "fride rice",
+      "price": 190,
+      "id": 19
+    },
+    {
+      "name": "veg soop",
+      "price": 110,
+      "id": 20
+    },
+    {
+      "name": "checken soop",
+      "price": 110,
+      "id": 21
+    },
+    {
+      "name": "mandhi *3",
+      "price": 750,
+      "id": 22
+    },
+    {
+      "name": "mandhi *2",
+      "price": 650,
+      "id": 23
+    },
+    {
+      "name": "katta biriyani",
+      "price": 400,
+      "id": 24
+    },
+    {
+      "name": "mogalai biriyani",
+      "price": 600,
+      "id": 25
+    },
+    {
+      "name": "pepporoni pizzai",
+      "price": 1000,
+      "id": 26
+    },
+    {
+      "name": "badham salad",
+      "price": 100,
+      "id": 27
+    },
+    {
+      "name": "badham milk shake",
+      "price": 100,
+      "id": 28
+    },
+    {
+      "name": "lemon rice",
+      "price": 130,
+      "id": 29
+    },
+    {
+      "name": "tomato rice",
+      "price": 130,
+      "id": 30
+    }
+  ],
+  "orders": [
+    {
+      "customer_name": "bhargav",
+      "discount": 94,
+      "billAmount": 879.84,
+      "orders": [
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": "2"
+        },
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": 1
+        },
+        {
+          "name": "badham milk shake",
+          "price": 100,
+          "quantity": "2"
+        },
+        {
+          "name": "tomato rice",
+          "price": 130,
+          "quantity": "2"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customer_name": "akhil",
+      "discount": 191,
+      "billAmount": 3774.16,
+      "orders": [
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": "3"
+        },
+        {
+          "name": "katta biriyani",
+          "price": 400,
+          "quantity": "1"
+        },
+        {
+          "name": "mandhi *2",
+          "price": 650,
+          "quantity": "3"
+        },
+        {
+          "name": "mandhi *3",
+          "price": 750,
+          "quantity": "1"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customer_name": "naidu",
+      "discount": 68,
+      "billAmount": 1343.68,
+      "orders": [
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": "2"
+        },
+        {
+          "name": "tomato rice",
+          "price": 130,
+          "quantity": "2"
+        },
+        {
+          "name": "lemon rice",
+          "price": 130,
+          "quantity": "2"
+        },
+        {
+          "name": "mogalai biriyani",
+          "price": 600,
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "customer_name": "brundha",
+      "discount": 0,
+      "billAmount": 868.4,
+      "orders": [
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": 1
+        },
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": 1
+        },
+        {
+          "name": "Iveg saladle",
+          "price": 145,
+          "quantity": 1
+        },
+        {
+          "name": "burger",
+          "price": 180,
+          "quantity": 1
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": 1
+        },
+        {
+          "name": "badham milk shake",
+          "price": 100,
+          "quantity": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "customer_name": "sai",
+      "discount": 147,
+      "billAmount": 866.32,
+      "orders": [
+        {
+          "name": "Idle",
+          "price": 40,
+          "quantity": "2"
+        },
+        {
+          "name": "ice cream",
+          "price": 90,
+          "quantity": "2"
+        },
+        {
+          "name": "burger",
+          "price": 180,
+          "quantity": 1
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": "2"
+        },
+        {
+          "name": "mutton curry",
+          "price": 200,
+          "quantity": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "customer_name": "sai",
+      "discount": 46.5,
+      "billAmount": 274.04,
+      "orders": [
+        {
+          "name": "Idle",
+          "price": 40,
+          "quantity": 1
+        },
+        {
+          "name": "samosa",
+          "price": 30,
+          "quantity": 1
+        },
+        {
+          "name": "pizza",
+          "price": 240,
+          "quantity": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "customer_name": "ravi",
+      "discount": 0,
+      "billAmount": 676,
+      "orders": [
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": 1
+        },
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": 1
+        },
+        {
+          "name": "buttor non",
+          "price": 180,
+          "quantity": 1
+        },
+        {
+          "name": "veg soop",
+          "price": 110,
+          "quantity": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "customer_name": "jai",
+      "discount": 660,
+      "billAmount": 686.4,
+      "orders": [
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": "2"
+        },
+        {
+          "name": "kaliflower curry",
+          "price": 150,
+          "quantity": "2"
+        },
+        {
+          "name": "checken chat",
+          "price": 190,
+          "quantity": 1
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": 1
+        },
+        {
+          "name": "burger",
+          "price": 180,
+          "quantity": 1
+        }
+      ],
+      "id": 8
+    },
+    {
+      "customer_name": "seetam naidu",
+      "discount": 0,
+      "billAmount": 915.2,
+      "orders": [
+        {
+          "name": "Idle",
+          "price": 40,
+          "quantity": "2"
+        },
+        {
+          "name": "mutton wings",
+          "price": 360,
+          "quantity": 1
+        },
+        {
+          "name": "kaliflower curry",
+          "price": 150,
+          "quantity": 1
+        },
+        {
+          "name": "Iveg saladle",
+          "price": 145,
+          "quantity": "2"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "customer_name": "minna",
+      "discount": 203,
+      "billAmount": 1900.08,
+      "orders": [
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": "2"
+        },
+        {
+          "name": "veg soop",
+          "price": 110,
+          "quantity": 1
+        },
+        {
+          "name": "checken chat",
+          "price": 190,
+          "quantity": "2"
+        },
+        {
+          "name": "mandhi *2",
+          "price": 650,
+          "quantity": "2"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "customer_name": "nagendra redyy",
+      "discount": 152.5,
+      "billAmount": 1427.4,
+      "orders": [
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": "2"
+        },
+        {
+          "name": "Iveg saladle",
+          "price": 145,
+          "quantity": "3"
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": "5"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "customer_name": "laxman rao",
+      "discount": 83.2,
+      "billAmount": 4239.872,
+      "orders": [
+        {
+          "name": "katta biriyani",
+          "price": 400,
+          "quantity": "3"
+        },
+        {
+          "name": "mandhi *2",
+          "price": 650,
+          "quantity": "2"
+        },
+        {
+          "name": "ice cream",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": "4"
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": 1
+        },
+        {
+          "name": "fride rice",
+          "price": 190,
+          "quantity": "3"
+        },
+        {
+          "name": "veg soop",
+          "price": 110,
+          "quantity": 1
+        },
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": 1
+        }
+      ],
+      "id": 12
+    },
+    {
+      "customer_name": "naidu",
+      "discount": 0,
+      "billAmount": 2839.2,
+      "orders": [
+        {
+          "name": "veg soop",
+          "price": 110,
+          "quantity": "4"
+        },
+        {
+          "name": "buttor non",
+          "price": 180,
+          "quantity": 1
+        },
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": "3"
+        },
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": "3"
+        },
+        {
+          "name": "fride rice",
+          "price": 190,
+          "quantity": "2"
+        },
+        {
+          "name": "mandhi *2",
+          "price": 650,
+          "quantity": 1
+        }
+      ],
+      "id": 13
+    },
+    {
+      "customer_name": "feuji",
+      "discount": 0,
+      "billAmount": 47912.8,
+      "orders": [
+        {
+          "name": "Iveg saladle",
+          "price": 145,
+          "quantity": "20"
+        },
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": "30"
+        },
+        {
+          "name": "fride rice",
+          "price": 190,
+          "quantity": "20"
+        },
+        {
+          "name": "veg soop",
+          "price": 110,
+          "quantity": "48"
+        },
+        {
+          "name": "kaliflower curry",
+          "price": 150,
+          "quantity": "15"
+        },
+        {
+          "name": "checken chat",
+          "price": 190,
+          "quantity": "48"
+        },
+        {
+          "name": "mandhi *3",
+          "price": 750,
+          "quantity": "15"
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": "15"
+        },
+        {
+          "name": "tomato rice",
+          "price": 130,
+          "quantity": "4"
+        },
+        {
+          "name": "badham milk shake",
+          "price": 100,
+          "quantity": "48"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "customer_name": "ajay kumar feuji employ",
+      "discount": 197.5,
+      "billAmount": 1848.6,
+      "orders": [
+        {
+          "name": "kaliflower curry",
+          "price": 150,
+          "quantity": "2"
+        },
+        {
+          "name": "fride rice",
+          "price": 190,
+          "quantity": 1
+        },
+        {
+          "name": "Iveg saladle",
+          "price": 145,
+          "quantity": "5"
+        },
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": 1
+        },
+        {
+          "name": "checken noodles",
+          "price": 160,
+          "quantity": "4"
+        }
+      ],
+      "id": 15
+    },
+    {
+      "customer_name": "yamini",
+      "discount": 293,
+      "billAmount": 2742.48,
+      "orders": [
+        {
+          "name": "chapathi",
+          "price": 60,
+          "quantity": 1
+        },
+        {
+          "name": "burger",
+          "price": 180,
+          "quantity": "5"
+        },
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": 1
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": "3"
+        },
+        {
+          "name": "kaliflower curry",
+          "price": 150,
+          "quantity": 1
+        },
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": "2"
+        },
+        {
+          "name": "fride rice",
+          "price": 190,
+          "quantity": "5"
+        }
+      ],
+      "id": 16
+    },
+    {
+      "customer_name": "rakesh",
+      "discount": 486,
+      "billAmount": 1179.36,
+      "orders": [
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": "2"
+        },
+        {
+          "name": "buttor non",
+          "price": 180,
+          "quantity": "3"
+        },
+        {
+          "name": "mogalai biriyani",
+          "price": 600,
+          "quantity": 1
+        }
+      ],
+      "id": 17
+    },
+    {
+      "customer_name": "mani",
+      "discount": 1894693543721825.2,
+      "billAmount": 96553582988064220,
+      "orders": [
+        {
+          "name": "katta biriyani",
+          "price": 400,
+          "quantity": "5"
+        },
+        {
+          "name": "katta biriyani",
+          "price": 400,
+          "quantity": "9"
+        },
+        {
+          "name": "veg soop",
+          "price": 110,
+          "quantity": 1
+        },
+        {
+          "name": "veg soop",
+          "price": 110,
+          "quantity": "1522"
+        },
+        {
+          "name": "buttor non",
+          "price": 180,
+          "quantity": "147855452"
+        },
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": "789455421252221"
+        },
+        {
+          "name": "kaliflower curry",
+          "price": 150,
+          "quantity": "55454"
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": "78542"
+        }
+      ],
+      "id": 18
+    },
+    {
+      "customer_name": "karthic",
+      "discount": 0,
+      "billAmount": 572,
+      "orders": [
+        {
+          "name": "Idle",
+          "price": 40,
+          "quantity": 1
+        },
+        {
+          "name": "mutton curry",
+          "price": 200,
+          "quantity": 1
+        },
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": 1
+        },
+        {
+          "name": "fride rice",
+          "price": 190,
+          "quantity": 1
+        }
+      ],
+      "id": 19
+    },
+    {
+      "customer_name": "ramesh ganamana",
+      "discount": 210,
+      "billAmount": 1965.6,
+      "orders": [
+        {
+          "name": "badham salad",
+          "price": 100,
+          "quantity": 1
+        },
+        {
+          "name": "pepporoni pizzai",
+          "price": 1000,
+          "quantity": "2"
+        }
+      ],
+      "id": 20
+    },
+    {
+      "customer_name": "ganamaba",
+      "discount": 111.5,
+      "billAmount": 1043.64,
+      "orders": [
+        {
+          "name": "checken noodles",
+          "price": 160,
+          "quantity": "2"
+        },
+        {
+          "name": "chicken wings",
+          "price": 240,
+          "quantity": 1
+        },
+        {
+          "name": "Iveg saladle",
+          "price": 145,
+          "quantity": "3"
+        },
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": 1
+        }
+      ],
+      "id": 21
+    },
+    {
+      "customer_name": "brunda desam",
+      "discount": 626,
+      "billAmount": 5859.36,
+      "orders": [
+        {
+          "name": "egg noodles",
+          "price": 120,
+          "quantity": "2"
+        },
+        {
+          "name": "checken curry",
+          "price": 170,
+          "quantity": 1
+        },
+        {
+          "name": "kaliflower curry",
+          "price": 150,
+          "quantity": "5"
+        },
+        {
+          "name": "checken chat",
+          "price": 190,
+          "quantity": "10"
+        },
+        {
+          "name": "katta biriyani",
+          "price": 400,
+          "quantity": "8"
+        }
+      ],
+      "id": 22
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
