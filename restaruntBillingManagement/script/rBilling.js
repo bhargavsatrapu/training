@@ -83,7 +83,7 @@ function displayTable() {
     for (let i in orderItems) {
         orderdItems.innerHTML += `<tr>
         <td class="item-name">${orderItems[i].name}</td>
-        <td><input type="text" value="${orderItems[i].quantity}" onchange="akhil(${i})" class="enter-quantity"></td>
+        <td><input type="text" value="${orderItems[i].quantity}" onchange="quantityChanage(${i})" class="enter-quantity"></td>
         <td class="item-price">${orderItems[i].price * orderItems[i].quantity}</td>
     </tr>`;
         sum += orderItems[i].price * orderItems[i].quantity;
@@ -92,7 +92,7 @@ function displayTable() {
 }
 
 
-function akhil(id) {
+function quantityChanage(id) {
     var enterQuantity = document.querySelectorAll(".enter-quantity");
     console.log(enterQuantity.value);
     orderItems[id].quantity = enterQuantity[id].value;

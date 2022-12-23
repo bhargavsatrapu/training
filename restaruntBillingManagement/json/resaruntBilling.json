@@ -890,6 +890,24 @@
         }
       ],
       "id": 23
+    },
+    {
+      "customer_name": "bhargavsatrapu",
+      "discount": 335,
+      "billAmount": 1045.2,
+      "orders": [
+        {
+          "name": "veg non",
+          "price": 120,
+          "quantity": "8"
+        },
+        {
+          "name": "fride rice",
+          "price": 190,
+          "quantity": "2"
+        }
+      ],
+      "id": 24
     }
   ],
   "profile": {
