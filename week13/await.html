@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<title>hi...</title>
+</head>
+
+<body>
+
+	<script>
+
+		var url = "https://forkify-api.herokuapp.com/api/search?q=pizza";
+
+		getapi(url);
+		var data;
+		var hai;
+		async function getapi(url) {
+
+			const response = await fetch(url);
+			console.log(response);
+			data = await response.json();
+			console.log(data);
+
+			another(response);
+
+		}
+
+		function another(response) {
+			if (response) {
+				getapi(url);
+			} else {
+				hai = data.recipes[0].title;
+			}
+		}
+
+
+		console.log("hai");
+
+
+
+	</script>
+</body>
+
+</html>

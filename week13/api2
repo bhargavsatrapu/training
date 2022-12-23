@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>i am from api</title>
+	</head>
+	<body>
+	
+	
+		<script>
+		
+		var x={"name":"akhil","age":21,"village":"ganguvada"};
+		
+		console.log(x);
+	
+		</script>
+	</body>
+</html>

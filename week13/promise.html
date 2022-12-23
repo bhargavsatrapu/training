@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>hi...</title>
+	</head>
+	<body>
+	
+	<script>
+		var x=new Promise(akhil);
+
+		function akhil(resolve,reject){
+			var x=false;
+			if(x==true){
+				resolve("hai");
+			}else{
+				reject("bai");
+			}
+		}
+		x.then(kiran).catch(minna);
+
+		function kiran(r){
+			console.log(r);
+		}
+		function minna(f){
+			console.log(f);
+		}
+	</script>
+	</body>
+</html>

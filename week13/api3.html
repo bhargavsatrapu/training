@@ -1,0 +1,20 @@
+ <html>
+	<head>
+		<title>hi...</title>
+	</head>
+	<body>
+	
+	<script>
+	
+var x=new XMLHttpRequest();
+
+x.open("get","https://dummyjson.com/carts");
+x.send();
+
+x.addEventListener("load",function(){
+	console.log(this.responseText);
+});
+
+	</script>
+	</body>
+</html>

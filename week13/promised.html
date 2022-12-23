@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>hi...</title>
+</head>
+
+<body>
+
+    <script>
+
+        // async function apiPractice(){
+        //     var x=await fetch("http://localhost:3000/posts");
+        //     console.log(x);
+        //     var z=await x.json();
+        //     console.log(z);
+        //  }
+
+         
+            var userdata={
+                name:"akhilrock"
+            }
+        apiPractice(userdata);
+
+        async function apiPractice(userdata){
+            var x=await fetch("http://localhost:3000/posts",{
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json",
+                },
+                body:JSON.stringify(userdata),
+            });
+            var newUser=await x.json();
+            console.log(newUser);
+        }
+
+        // async function akhil(new_data){
+        //     var x=await fetch("http://localhost:3000/profile",{
+        //         method:"POST",
+        //         headers:{
+        //             "Content-Type":"application/json"
+        //         },
+        //         body:JSON.stringify(new_data),
+        //     });
+        //     var z=await x.json();
+        //     console.log(z);
+        // }
+
+        // var new_data={
+        //     name:"bhargavSatrapu",
+        //     class:"9th class",
+        //     school:"feuji"
+        // }
+
+        akhil(new_data);
+
+        async function akhil(rename){
+            var x=await fetch("http://localhost:3000/posts/9",{
+                method:"patch",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify(rename)
+            })
+            var z=x.json();
+            console.log(z);
+        }
+
+
+        var rename={
+            name:"akhilreddy"
+        }
+            
+        akhil(rename);
+        
+    </script>
+</body>
+
+</html>
