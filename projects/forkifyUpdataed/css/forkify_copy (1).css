@@ -1,0 +1,451 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #fbdb89, #f48982, #f38e82);
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	width: 1000px;
+	margin: 20px auto;
+	background-color: #F9F5F3;
+	border-radius: 10px;
+	position: relative;
+}
+
+.clear {
+	clear: both;
+}
+
+.container-header {
+	width: 100%;
+	background-color: #F9F5F3;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.logo-container {
+	padding: 23px 0px 10px 33px;
+	width: 20%;
+	background-color: inherit;
+	overflow: auto;
+	border-radius: 10px 0px 0px 0px;
+	float: left;
+}
+
+.logo-image {
+	float: left;
+
+	height: 45px;
+	background-color: inherit;
+}
+
+.header-search-bar {
+	padding: 20px 0px 20px 10px;
+	background-color: inherit;
+	height: inherit;
+	float: left;
+	width: 49%;
+}
+
+.search-box {
+	padding: 0px 0px 0px 25px;
+	float: left;
+	width: 67%;
+	border-radius: 25px;
+	border: none;
+	height: 48px;
+	font-size: 15px;
+}
+
+.search-button {
+	float: left;
+	background-color: inherit;
+	width: 31%;
+	border-radius: 25px;
+	background-image: linear-gradient(to bottom right, #fbdb89, #f48982, #f38e82);
+	height: 48px;
+	position: relative;
+	right: 30px;
+	padding-top: 10px;
+	border: none;
+}
+
+.search-image {
+	height: 20px;
+	position: relative;
+	bottom: 4px;
+}
+
+.search-txt {
+	color: white;
+	position: relative;
+	bottom: 9px;
+	font-size: 13.5px;
+	text-transform: uppercase;
+}
+
+.header-menu {
+	background-color: inherit;
+	height: inherit;
+	float: left;
+	width: 31%;
+	padding: 25px;
+	border-radius: 10px;
+	font-size: 13.5px;
+}
+
+.recipe {
+	padding-left: 0px;
+	float: left;
+	position: relative;
+	top: 8px;
+	left: 4px;
+}
+
+.recipe-header-image {
+	height: 24px;
+}
+
+.add-recipe-txt {
+	position: relative;
+	bottom: 8px;
+	text-transform: uppercase;
+}
+
+
+.bookmark {
+	padding-left: 30px;
+	float: left;
+	position: relative;
+	top: 11px;
+	left: 4px;
+	text-transform: uppercase;
+}
+
+.bookmark-image {
+	height: 17px;
+}
+
+.bookmark-txt {
+	position: relative;
+	bottom: 5px;
+}
+
+.container-left {
+	width: 35%;
+	background-color: white;
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	min-height: 700px;
+}
+
+.loding-1 {
+	padding-top: 40px;
+	text-align: center;
+	display: none;
+}
+
+.error1 {
+	padding-top: 40px;
+	text-align: center;
+	display: none;
+}
+
+.welcome-text {
+	padding-top: 40px;
+	text-align: center;
+	display: block;
+	background-color: #f2f2f2;
+}
+
+.container-right {
+	width: 65%;
+	background-color: #f2f2f2;
+	float: right;
+}
+
+.right-inner-container {
+	display: none;
+}
+
+.containor-image {
+	position: relative;
+	width: 100%;
+	min-height: 250px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.title-div {
+	position: absolute;
+	bottom: -28px;
+	left: 30%;
+	width: 40%;
+}
+
+.recipe-name-0 {
+	background-image: linear-gradient(to bottom right, #fbdb89, #f48982, #f38e82);
+	padding: 8px;
+	transform: skewY(-8deg);
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.recipe-menu {
+	width: 100%;
+	background-color: inherit;
+	border: none;
+	padding: 10px 25px 10px 27px;
+	display: inline-block;
+}
+
+.recipe-menu:hover {
+	background-color: #F9F5F3;
+}
+
+.recipe-image {
+	float: left;
+	width: 20%;
+	background-color: inherit;
+	padding: 4px;
+}
+
+.recipe-content {
+	float: left;
+	width: 80%;
+	background-color: inherit;
+	padding: 8px 0px 0px 10px;
+	text-transform: uppercase;
+	padding-top: 8px;
+	font-size: 13px;
+}
+
+.recipe-content>h4 {
+	color: #f56f42;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 5px 0px;
+	font-size: 15px;
+
+}
+
+.recipe-content>p {
+	font-size: 11px;
+}
+
+.menu-image {
+	width: 100%;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+
+.service-bar {
+	padding-top: 60px;
+	width: 100%;
+	background-color: #F9F5F3;
+	padding-bottom: 18px;
+	text-transform: uppercase;
+}
+
+.time {
+	float: left;
+	width: 30%;
+}
+
+.time-text {
+	position: relative;
+	bottom: 4px;
+}
+
+.serving {
+	float: left;
+	width: 30%;
+}
+
+.serving-text {
+	position: relative;
+	bottom: 4px;
+}
+
+.icons-time {
+	height: 22px;
+}
+
+.icons-people {
+	height: 22px;
+}
+
+.icons-plus {
+	height: 22px;
+}
+
+.icons-minus {
+	height: 19px;
+	position: relative;
+	bottom: 1.9px;
+	right: 4px;
+}
+
+.icons-bookmark {
+	height: 40px;
+	position: relative;
+	bottom: 10px;
+}
+
+.bookmark-icon {
+	float: left;
+	padding-left: 20%;
+}
+
+
+.ingredient-bar {
+	width: 100%;
+	background-color: #f2efee;
+	padding: 40px;
+	font-size: 14px;
+	min-height: 475px;
+}
+
+.ingredient-heading {
+	text-transform: uppercase;
+	color: #f56f42;
+}
+
+.ingredient-bar>ul {
+	width: 100%;
+	padding-left: 90px;
+	display: inline-block;
+}
+
+.ingredient-bar>ul>li {
+	width: 50%;
+	float: left;
+	padding-top: 18px;
+	padding-right: 15px;
+	list-style-image: url('../images/icons8-done.svg');
+}
+
+
+
+
+.footer {
+	width: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.footer-right {
+	padding-top: 10px;
+	width: 65%;
+	background-color: #f9f5f3;
+	border-radius: 10px;
+	float: right;
+}
+
+
+.how-to-cook-it {
+	color: #f56f42;
+	text-transform: uppercase;
+	padding: 30px 0px 0px 0px;
+}
+
+.direction-button {
+	margin: 20px auto 35px auto;
+	height: 40px;
+	border-radius: 20px;
+	width: 150px;
+	background-image: linear-gradient(to bottom right, #fbdb89, #f48982, #f38e82);
+	text-align: center;
+	border: none;
+}
+
+.main-button-text {
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+	bottom: 4px;
+	font-size: 15px;
+}
+
+
+.main-button-image {
+	height: 20px;
+	fill: white;
+	position: relative;
+	left: 5px;
+}
+
+
+.footer-left {
+	border-radius: 15px;
+	background-color: white;
+	width: 35%;
+	padding: 20px 25px 20px 25px;
+	position: absolute;
+	bottom: 0px;
+	left: 0x;
+	border-radius: 10px;
+}
+
+.previous-button {
+	float: left;
+	border-radius: 25px;
+	height: 31px;
+	width: 30%;
+	border: none;
+	background-color: #F9F5F3;
+}
+
+.next-button {
+	float: right;
+	border-radius: 25px;
+	height: 31px;
+	width: 30%;
+	border: none;
+	background-color: #F9F5F3;
+}
+
+.footer-left>.next-button>img {
+	height: 17px;
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+}
+
+.footer-left>.previous-button>img {
+	height: 17px;
+	position: relative;
+	right: 4px;
+	bottom: 0px;
+}
+
+.previous-page {
+	position: relative;
+	bottom: 4px;
+	color: #f56f42;
+}
+
+.next-page {
+	position: relative;
+	bottom: 4px;
+	color: #f56f42;
+}
+
+.copyright {
+	font-size: 13px;
+}
