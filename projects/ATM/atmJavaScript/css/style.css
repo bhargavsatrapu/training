@@ -1,0 +1,367 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+.fPage {
+	background-color: #1a1aff;
+	width: 100%;
+	height: 100vh;
+	display: none;
+}
+
+.welcome-quot {
+	color: #e61cd1;
+	font-size: 40px;
+	margin-top: 70px;
+}
+
+.login-btn {
+
+	height: 100px;
+	width: 40%;
+	margin-top: 200px;
+	margin-left: 30%;
+	border-radius: 15px;
+	border: 5px solid #000099;
+}
+
+.register-btn {
+
+	height: 100px;
+	width: 40%;
+	margin-top: 30px;
+	margin-left: 30%;
+	border-radius: 15px;
+	border: 5px solid #000099;
+}
+
+
+.sPage {
+	background-image: linear-gradient(to right, #2f28ed, #9d0bd6);
+	display: none;
+	width: 100%;
+	height: 100vh;
+	padding-top: 250px;
+}
+
+
+.continer {
+
+	margin: 0px 35%;
+	background-color: #fafaf2;
+	border-radius: 20px;
+	width: 29%;
+	height: 400px;
+}
+
+h3 {
+	padding: 20px;
+	font-family: Schoolbook;
+}
+
+
+input {
+	height: 40px;
+	width: 75%;
+	border: 2px solid white;
+	border-radius: 15px;
+	padding: 20px 25px;
+	margin: 10px;
+}
+
+
+.button {
+	background-image: linear-gradient(to right, #2f28ed, #9d0bd6);
+	width: 75%;
+	height: 35px;
+	color: white;
+	border: 2px solid white;
+}
+
+.reg {
+	width: 45%;
+	height: 30px;
+	float: left;
+	border-radius: 5px;
+	background-color: white;
+	border: 2px solid white;
+}
+
+.for {
+	width: 45%;
+	height: 30px;
+	float: right;
+	margin-right: 4%;
+	border-radius: 5px;
+	background-color: white;
+	border: 2px solid white;
+}
+
+
+.tpage {
+	background-color: #0000cc;
+	width: 100%;
+	height: 100vh;
+	display: none;
+}
+
+.atm {
+	background-color: #0000cc;
+	width: 27%;
+	height: 80px;
+	float: left;
+	padding: 20px;
+	font-size: 35px;
+	color: white;
+
+}
+
+.card-return {
+	background-color: #0000cc;
+	width: 73%;
+	height: 80px;
+	float: left;
+	padding: 20px 30px;
+	color: white;
+
+}
+
+.atm-layout {
+	padding: 70px 20px;
+	background-color: #0000cc;
+	width: 27%;
+	/* // height:300px; */
+	float: left;
+	color: white;
+	font-size: 30px;
+
+}
+
+.user-option {
+	padding: 70px 5px;
+	background-color: #0000cc;
+	width: 73%;
+	/* // height:300px; */
+	float: left;
+}
+
+.tbutton {
+	width: 46%;
+	margin: 1%;
+	height: 110px;
+	float: left;
+	border: none;
+	background-color: #33ccff;
+	font-size: 20px;
+	color: white;
+}
+
+.tbutton:hover {
+
+	background-color: #005ce6;
+	color: white;
+
+}
+
+
+.foPage {
+	background-color: #182ed6;
+	width: 100%;
+	height: 100vh;
+	display: none;
+}
+
+.foPage-container {
+	padding-top: 100px;
+	margin-left: 25%;
+	color: yellow;
+	font-size: 30px;
+	width: 50%;
+}
+
+.amountd-area {
+	height: 100px;
+	width: 40%;
+	margin-top: 120px;
+	margin-left: 30%;
+}
+
+.deposite-btn {
+	height: 100px;
+	width: 40%;
+	margin-top: 30px;
+	margin-left: 30%;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+.close-deposit-btn {
+	margin-top: 50px;
+	margin-right: 25px;
+	float: right;
+	height: 70px;
+	width: 150px;
+	border-radius: 15px;
+	background-color: red;
+	border: 5px solid #400727;
+	font-size: 28px;
+
+}
+
+.close-deposit-btn:hover {
+	background-color: #a938d9;
+	cursor: pointer;
+}
+
+
+.fiPage {
+	background-color: #182ed6;
+	width: 100%;
+	height: 100vh;
+	display: none;
+}
+
+.fiPage-container {
+	padding-top: 100px;
+	margin-left: 25%;
+	color: yellow;
+	font-size: 30px;
+	width: 50%;
+}
+
+
+.amountw-area {
+	height: 100px;
+	width: 40%;
+	margin-top: 120px;
+	margin-left: 30%;
+}
+
+.withdrawl-btn {
+	height: 100px;
+	width: 40%;
+	margin-top: 30px;
+	margin-left: 30%;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+.close-withdrawl-btn {
+	margin-top: 50px;
+	margin-right: 25px;
+	float: right;
+	height: 70px;
+	width: 150px;
+	border-radius: 15px;
+	background-color: red;
+	border: 5px solid #400727;
+	font-size: 28px;
+
+}
+
+.close-withdrawl-btn:hover {
+	background-color: #a938d9;
+	cursor: pointer;
+}
+
+
+
+.lpage {
+	display: none;
+	height: 100vh;
+	width: 100%;
+	background-color: #3412cc;
+}
+
+.history-diposit {
+	margin-top: 20px;
+	margin-left: 5%;
+	width: 40%;
+	height: 60px;
+	border-radius: 15px;
+	background-color: #a5fc03;
+}
+
+.history-withdrawl {
+	margin-top: 20px;
+	width: 40%;
+	height: 60px;
+	border-radius: 15px;
+	background-color: #fc4103;
+
+}
+
+th {
+	background-color: #4dff4d;
+	font-size: 28px;
+}
+
+td {
+	background-color: #3412cc;
+	font-size: 20px;
+	padding-left: 100px;
+}
+
+
+.tClose {
+	margin-left: 45%;
+	/* //margin-top:80vh; */
+	font-size: 30px;
+	color: blue;
+	border-radius: 10px;
+	background-color: #329ea8;
+	border: none;
+	z-index: 1;
+}
+
+.tClose:hover {
+	background-color: #8521bf;
+}
+
+.modal-vlidation {
+	background-color: #ffccff;
+	width: 100%;
+	height: 50px;
+	border-radius: 15px;
+	display: none;
+}
+
+.modal-vlidation-close {
+
+	height: inherit;
+	float: right;
+	width: 10%;
+	background-color: inherit;
+	border-radius: 15px;
+}
+
+.modal-close {
+	padding: 15px;
+	font-size: 30px;
+}
+
+.modal-close:hover {
+	cursor: pointer;
+	color: red;
+
+}
+
+.modal-vlidation-text {
+	height: inherit;
+	float: left;
+	width: 90%;
+	color: red;
+	background-color: inherit;
+	border-radius: 15px;
+	padding-top: 15px;
+	padding-left: 60px;
+
+}
+
+.display {
+	display: block;
+}
