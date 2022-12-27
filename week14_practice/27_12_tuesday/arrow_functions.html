@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roughf</title>
+</head>
+<body>
+    <script>
+
+// var x=d=>d;
+
+// console.log(x(80));
+
+// var x=new XMLHttpRequest();
+// x.open("GET","https://jsonplaceholder.typicode.com/posts");
+// x.send();
+// x.addEventListener("load",()=>{
+//     console.log(x.responseText);
+// })
+
+var promise=new Promise((resolve,reject)=>{
+    var x=true;
+    if(x){
+        resolve("sucess fully completed")
+    }else{
+        reject("rejected")
+    }
+});
+
+promise.then((x)=>{
+    console.log(x);
+}).catch((y)=>{
+    console.log(y);
+})
+    </script>
+</body>
+</html>
