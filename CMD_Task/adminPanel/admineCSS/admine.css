@@ -1,0 +1,47 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:90%;
+    min-height: 500px;
+    background-color: rgb(230, 241, 131);
+    margin: 20px auto 0px auto;
+}
+
+.left-side{
+    width: 15%;
+    min-height:500px;
+    background-color: rgb(173, 179, 125);
+    border-right: 2px solid black;
+    float: left;
+    padding: 20px 0px 0px 25px;
+}
+.menu-list{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.right-side{
+    width: 85%;
+    min-height:500px;
+    background-color: rgb(230, 241, 131);
+    float: left;
+    padding: 20px 0px 0px 25px;
+}
+
+.service-table{
+    width: 90%;
+    border: 1px solid black;
+}
+
+.json-items{
+    width:10%;
+}
+
+th,td{
+    padding:5px;
+    text-align: left;
+}
