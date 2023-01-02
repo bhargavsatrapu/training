@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cms</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 bgcolor-left">
+                <ul class="left-nav-list ps-1">
+                    <li class="my-3"><img class="logo-img" src="images/Digiency(Dark) 2.png" alt="logo_image"></li>
+                    <li class="ps-2 my-2">Home</li>
+                    <li class="ps-2 my-2">DashBoard</li>
+                    <li class="ps-2 my-2">DashBoard</li>
+                    <li class="ps-2 my-2">Services</li>
+                    <li class="ps-2 my-2">About Us</li>
+                    <li class="ps-2 my-2">Contact Us</li>
+                </ul>
+            </div>
+            <div class="col-sm-10 bg-secondary">
+                <div class="main-body">
+                    <div class="admin-panel">
+                        <h3 class="panel-heading">admin panel</h3>
+
+                       <table>
+                        <tbody>
+                            <tr>
+                                <td>Title</td>
+                                <td><input class="new-title" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Type</td>
+                                <td><input class="new-type" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>image_URL</td>
+                                <td><input class="new-URL" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Content</td>
+                                <td><textarea class="new-content" name="haii" id="ak1" cols="35" rows="4"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>status</td>
+                                <td><select class="new-status" name="status" id="ak2">
+                                    <option value="active">active</option>
+                                    <option value="inactive">inactive</option>
+                                </select></td>
+                            </tr>
+                        </tbody>
+                       </table><br><br>
+                       <button class="submit-button">submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script/script3.js"></script>
+</body>
+
+</html>

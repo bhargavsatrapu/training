@@ -1,0 +1,88 @@
+.left-nav-list {
+  list-style: none;
+}
+
+.bgcolor-left {
+  background-color: #4260e9;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.our-service {
+  color: #f79258;
+  text-align: center;
+}
+
+.WW_Do {
+  text-align: center;
+}
+
+.main-body {
+  min-height: 700px;
+  width: 100%;
+  background: #fff;
+  border-radius: 0;
+  padding: 65px 7%;
+}
+
+.type {
+  color: #7b7b7b;
+  font-size: 13px;
+}
+
+.content {
+  font-size: 16dppx;
+  color: #7b7b7b;
+}
+
+.body-div {
+  width: 30%;
+  min-height: 400px;
+  float: left;
+  background: #fff;
+  border-radius: 10px;
+  margin: 1.5%;
+  padding: 30px;
+  box-shadow: 0 1px 4px #0000001a;
+}
+
+.project-image {
+  height: 90px;
+}
+
+.service-table {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid #7b7b7b;
+  padding: 5px;
+}
+
+.add-button {
+  height: 100px;
+  width: 2oopx;
+  float: right;
+}
+
+.admin-panel {
+  width: 80%;
+  background-color: #adf59b;
+}
+
+.panel-heading {
+  text-align: center;
+}
+
+.submit-button {
+  height: 30px;
+  width: 130px;
+  float: right;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */
