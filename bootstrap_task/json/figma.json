@@ -1,0 +1,62 @@
+{
+  "service": [
+    {
+      "id": 1,
+      "status":"active",
+      "title": "UX Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/ux-interface.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 2,
+      "status":"active",
+      "title": "Game Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/gaming.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 3,
+      "status":"active",
+      "title": "Graphics Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/design.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 4,
+      "status":"active",
+      "title": "Web Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/web-design.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 5,
+      "status":"active",
+      "title": "App Development",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/mobile-development.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 6,
+      "status":"active",
+      "title": "Digital Marketing",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/digital-marketing.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,139 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.home-page {
+    padding: 25px 85px 100px 85px;
+    background: #FFF7F4;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list-items {
+    display: inline-block;
+    padding: 14px 5px 14px 8px;
+}
+
+.lets-talk {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 9px 10px 9px 12px;
+    margin: 3px auto;
+}
+
+.nav-list-items:hover {
+    color: #FF5300;
+}
+
+.home-page-info {
+    padding: 100px 0px 100px 16px;
+}
+
+.home-heading {
+    text-transform: capitalize;
+    font-size:38.5px;
+    font-weight: bold;
+}
+
+.home-page-image {
+    width: 100%;
+}
+
+.home-page-button {
+    background: #FF5300;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-body{
+    width: 100%;
+    border-radius: 0px;
+    background:#FFFFFF;
+    padding: 90px 60px;
+}
+
+.our-service{
+    color: #f3541a;
+    text-align: center;
+}
+
+.WW_Do{
+    text-align: center;
+}
+
+.type{
+    font-size: 13px;
+    color: #7B7B7B;
+}
+
+.content{
+    font-size: 16x;
+    color: #7B7B7B;
+}
+
+.project-image{
+    height: 90px;
+}
+
+.body-div{
+    width: 30%;
+    min-height: 300px;
+    background: #ffffff;
+    float: left;
+    margin:1.5%;
+    padding: 30px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.third-page{
+    background: #FFF7F4;
+    padding: 90px 60px;
+}
+
+.about-us-class{
+    color: #f3541a;
+    text-align: left;
+}
+
+.third-page-heading{
+    text-transform: capitalize;
+    font-size:33.5px;
+    font-weight: bold;
+}
+
+.third-page-ul{
+    list-style-image: url("../images/checkbox-circle-fill.png");
+}
+.list{
+    position: relative;
+    bottom:6.5px;
+    color: #7B7B7B;
+}
+
+.third-page-image{
+    height: 100%;
+    width: 100%;
+}
+.fourth-page{
+    padding: 90px 60px;
+}
+
+
+.fourth-page-heading{
+    text-transform: capitalize;
+    font-size:33.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-menu{
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.project-menu:hover{
+    background: #FF5300;
+}
