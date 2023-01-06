@@ -1,0 +1,190 @@
+* {
+  font-family: Poppins, sans-serif;
+}
+
+.home-page {
+  background: #fff7f4;
+  padding: 25px 85px 100px;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list-items {
+  padding: 14px 5px 14px 8px;
+  display: inline-block;
+}
+
+.lets-talk {
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 3px auto;
+  padding: 9px 10px 9px 12px;
+}
+
+.nav-list-items:hover {
+  color: #ff5300;
+}
+
+.home-page-info {
+  padding: 100px 0 100px 16px;
+}
+
+.home-heading {
+  text-transform: capitalize;
+  font-size: 38.5px;
+  font-weight: bold;
+}
+
+.home-page-image {
+  width: 100%;
+}
+
+.home-page-button {
+  background: #ff5300;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-body {
+  width: 100%;
+  background: #fff;
+  border-radius: 0;
+  padding: 90px 60px;
+}
+
+.our-service {
+  color: #f3541a;
+  text-align: center;
+}
+
+.WW_Do {
+  text-align: center;
+}
+
+.type {
+  color: #7b7b7b;
+  font-size: 13px;
+}
+
+.content {
+  color: #7b7b7b;
+  font-size: 16px;
+}
+
+.project-image {
+  height: 90px;
+}
+
+.body-div {
+  width: 30%;
+  min-height: 300px;
+  float: left;
+  background: #fff;
+  border-radius: 10px;
+  margin: 1.5%;
+  padding: 30px;
+  box-shadow: 0 1px 4px #0000001a;
+}
+
+.third-page {
+  background: #fff7f4;
+  padding: 90px 60px;
+}
+
+.about-us-class {
+  color: #f3541a;
+  text-align: left;
+}
+
+.third-page-heading {
+  text-transform: capitalize;
+  font-size: 33.5px;
+  font-weight: bold;
+}
+
+.third-page-ul {
+  list-style-image: url("checkbox-circle-fill.c2ed4443.png");
+}
+
+.list {
+  color: #7b7b7b;
+  position: relative;
+  bottom: 6.5px;
+}
+
+.third-page-image {
+  height: 100%;
+  width: 100%;
+}
+
+.fourth-page {
+  padding: 90px 60px;
+}
+
+.fourth-page-heading {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 33.5px;
+  font-weight: bold;
+}
+
+.project-menu {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.project-menu:hover {
+  background: #ff5300;
+}
+
+.fifth-page {
+  min-height: 600px;
+  background: #fff7f4;
+  padding: 90px 20px;
+}
+
+.card-css {
+  padding: 15px;
+}
+
+.card-img {
+  width: 50%;
+  float: left;
+}
+
+.card-body-css {
+  padding: 0;
+}
+
+.left-arow {
+  float: right;
+  margin-top: 40px;
+}
+
+.right-arow {
+  float: left;
+  margin-top: 73px;
+}
+
+.testmonial-image {
+  width: 40px;
+}
+
+.testmonial-heading {
+  color: #f3541a;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+.testmonial-type {
+  color: #7b7b7b;
+  margin-left: 7px;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */

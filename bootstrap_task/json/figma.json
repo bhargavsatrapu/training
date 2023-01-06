@@ -1,0 +1,110 @@
+{
+  "service": [
+    {
+      "id": 1,
+      "status":"active",
+      "title": "UX Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/ux-interface.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 2,
+      "status":"active",
+      "title": "Game Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/gaming.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 3,
+      "status":"active",
+      "title": "Graphics Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/design.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 4,
+      "status":"active",
+      "title": "Web Design",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/web-design.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 5,
+      "status":"active",
+      "title": "App Development",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/mobile-development.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    },
+    {
+      "id": 6,
+      "status":"active",
+      "title": "Digital Marketing",
+      "type": "Mobile App,Webapp",
+      "image_URL": "./images/digital-marketing.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "component_image_URL":"./images/Component1.png",
+      "image_URL":"./images/Image11.png",
+      "quot_URL":"./images/double-quotes-l.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been",
+      "heading":"Phillip levin",
+      "type":"CEO/creative IT"
+    },
+    {
+      "id": 2,
+      "component_image_URL":"./images/Component1.png",
+      "image_URL":"./images/Image12.png",
+      "quot_URL":"./images/double-quotes-l.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been",
+      "heading":"Phillip levin",
+      "type":"CEO/creative IT"
+    },
+    {
+      "id": 3,
+      "component_image_URL":"./images/Component1.png",
+      "image_URL":"./images/Image13.png",
+      "quot_URL":"./images/double-quotes-l.png",
+      "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been",
+      "heading":"Phillip levin",
+      "type":"CEO/creative IT"
+    }
+  ],
+  "our-recent-project-all":[
+    {
+      "image_URL":"./images/Image (2).png"
+    },
+    {
+      "image_URL":"./images/Image (3).png"
+    },
+    {
+      "image_URL":"./images/Image (4).png"
+    },
+    {
+      "image_URL":"./images/Image (5).png"
+    },
+    {
+      "image_URL":"./images/Image (6).png"
+    },
+    {
+      "image_URL":"./images/Image (7).png"
+    },
+    {
+      "image_URL":"./images/Image (8).png"
+    },
+    {
+      "image_URL":"./images/Image (9).png"
+    },
+    {
+      "image_URL":"./images/Image (10).png"
+    }
+  ]
+}
