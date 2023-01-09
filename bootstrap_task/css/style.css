@@ -1,0 +1,302 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-page {
+    padding: 25px 85px 100px 85px;
+    background: #FFF7F4;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list-items {
+    display: inline-block;
+    padding: 14px 5px 14px 8px;
+}
+
+.lets-talk {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 9px 10px 9px 12px;
+    margin: 3px auto;
+}
+
+.nav-list-items:hover {
+    color: #FF5300;
+}
+
+.home-page-info {
+    padding: 100px 0px 100px 16px;
+}
+
+.home-heading {
+    text-transform: capitalize;
+    font-size: 38.5px;
+    font-weight: bold;
+}
+
+.home-page-image {
+    width: 100%;
+}
+
+.home-page-button {
+    background: #FF5300;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-body {
+    width: 100%;
+    border-radius: 0px;
+    background: #FFFFFF;
+    padding: 90px 60px;
+}
+
+.our-service {
+    color: #f3541a;
+    text-align: center;
+}
+
+.WW_Do {
+    text-align: center;
+}
+
+.type {
+    font-size: 13px;
+    color: #7B7B7B;
+}
+
+.content {
+    font-size: 16px;
+    color: #7B7B7B;
+}
+
+.project-image {
+    height: 90px;
+}
+
+.body-div {
+    width: 30%;
+    min-height: 300px;
+    background: #ffffff;
+    margin: 1.5%;
+    padding: 30px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 0 0 auto;
+}
+
+.third-page {
+    background: #FFF7F4;
+    padding: 90px 60px;
+}
+
+.about-us-class {
+    color: #f3541a;
+    text-align: left;
+}
+
+.third-page-heading {
+    text-transform: capitalize;
+    font-size: 33.5px;
+    font-weight: bold;
+}
+
+.third-page-ul {
+    list-style-image: url("../images/checkbox-circle-fill.png");
+}
+
+.list {
+    position: relative;
+    bottom: 6.5px;
+    color: #7B7B7B;
+}
+
+.third-page-image {
+    height: 100%;
+    width: 100%;
+}
+
+.fourth-page {
+    padding: 90px 60px;
+}
+
+
+.fourth-page-heading {
+    text-transform: capitalize;
+    font-size: 33.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-menu {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.project-menu:hover {
+    background: #FF5300;
+}
+
+.project-images {}
+
+.fifth-page {
+    padding: 90px 20px;
+    background: #FFF7F4;
+}
+
+.card-css {
+    padding: 15px;
+}
+
+.card-img {
+    width: 50%;
+    float: left;
+}
+
+.card-body-css {
+    padding: 0px;
+}
+
+.left-arow {
+    float: right;
+    margin-top: 40px;
+}
+
+.right-arow {
+    float: left;
+    margin-top: 73px;
+}
+
+.testmonial-image {
+    width: 40px;
+}
+
+.testmonial-heading {
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    color: #f3541a;
+}
+
+.testmonial-type {
+    margin-left: 7px;
+    font-size: 13px;
+    color: #7B7B7B;
+}
+
+.sixth-page {
+    padding: 60px;
+    min-height: 600px;
+}
+
+.inside-our-capabilites {
+    margin: 1px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-height: 90px;
+}
+
+.our-capabilites-box-heading {
+    font-size: 22px;
+    color: #f3541a;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.our-capabilites-box-content {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #7B7B7B;
+}
+
+.our-capabilites-footer {
+    background-color: #f3541a;
+    border-radius: 10px;
+    min-height: 200px;
+    margin-top: 90px;
+}
+
+.our-cap-inner {
+    padding: 50px;
+    text-align: center;
+}
+
+.our-cap-image{
+    width: 60px;
+}
+
+.our-cap-inner-p1 {
+    padding-top: 10px;
+   font-size: 32px;
+    color: #FFFFFF;
+    margin:auto;
+
+}
+
+.our-cap-inner-p2 {
+   font-size: 20px;
+    color: #FFFFFF;
+    margin:auto;
+
+}
+
+.border-right{
+    border-left: 2px solid white;
+}
+
+.seventh-page{
+    min-height: 600px;
+    background-color: #FFF7F4;;
+    padding: 100px 70px 30px 70px;
+}
+
+.button-color{
+    background-color: #FF5300;
+}
+
+.seventh-page-footer{
+    min-height: 400px;
+    padding: 80px;
+    background-color:#ffffff
+}
+
+.last-page{
+    height: 200px;
+    border-radius: 10px;
+    background-color: #FF5300;
+    padding: 55px 30px;
+}
+
+.subscribe-letter{
+    color: #ffffff;
+}
+
+.subscribe-stay{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.subscribe-input{
+    height: 70PX;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+.sub-btn{
+    position:absolute;
+    right: 13px;
+    height: 65px;
+    width: 180px;
+    border-radius: 3px;
+    top: 2.5px;
+    color: #ffffff;
+}
