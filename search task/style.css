@@ -1,0 +1,23 @@
+.container{
+    width: 60%;
+    margin: 20px auto;
+    background-color: #ffafbd ;
+    padding: 60px 100px;
+    min-height: 800px;
+    border-radius: 20px;
+}
+.serch-bar{
+    height: 40px;
+    border-radius: 15px;
+    width: 280px;
+}
+.display-list{
+    list-style-type: none;
+}
+
+.display-list>li{
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+    color: rgb(76, 48, 141);
+}
