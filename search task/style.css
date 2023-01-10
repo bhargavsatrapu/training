@@ -1,0 +1,15 @@
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background-color: aliceblue;
+    padding: 60px 100px;
+    min-height: 800px;
+}
+.serch-bar{
+    height: 40px;
+    border-radius: 15px;
+    width: 280px;
+}
+.display-list{
+    list-style-type: none;
+}
