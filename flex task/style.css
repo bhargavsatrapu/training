@@ -1,0 +1,174 @@
+
+
+.container{
+    width: 80%;
+    margin: 0px auto 0px auto;
+    background-color: rgb(255, 255, 255);
+    min-height: 2000px;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    flex-flow: row wrap;    
+}
+
+.earth-tribe{
+    font-weight: bold;
+    color: black;
+}
+.challange-join{
+    display: flex;
+    font-weight: bold;
+    color: black;
+    justify-content: space-between;
+    width: 220px;
+}
+.join-btn{
+   padding: 16px 0px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.saving-our-planate{
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+.left-saving{
+   width: 65%;
+}
+
+.right-saving{
+    width: 35%;
+    background-color: rgba(222,226,230,255);
+    box-sizing:content-box;
+    border-radius: 10px;
+}
+
+.saving-main{
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.saving-sub{
+    color: rgb(167, 167, 167);
+    font-size: 28px;
+}
+
+.join-the-gloab{
+ 
+}
+
+.join-heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.join-content{
+    font-size: 25px;
+    color:rgb(167, 167, 167);
+}
+
+.parent-card{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.join-card{
+    width: 30%;
+}
+
+.car-header{
+    height: 200px;
+    background-color: rgba(222,226,230,255);
+    border-radius: 10px;
+}
+
+.card-body{
+
+}
+
+.card-heading{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.card-content{
+    font-size: 22px;
+    color:rgb(167, 167, 167);
+}
+
+.card-btn{
+    background-color: rgba(52,58,64,255);
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.discription-top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.discription-bottom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.box-empty{
+    width: 43%;
+    background-color: rgba(222,226,230,255);
+}
+
+.box-content{
+    width: 43%;
+}
+.tribe-queize{
+    background-color: rgba(52,58,64,255);
+    border-radius: 10px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.why-join-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.why-join-card{
+    width: 30%;
+}
+
+.why-card-heading{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+.why-card-body{
+    color: rgba(144,150,156,255);
+    font-size: 18px;
+}
+
