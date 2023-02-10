@@ -1,0 +1,13 @@
+.main-links{
+    width:30%;
+    float:left;
+    background-color: antiquewhite;
+    height:500px;
+}
+
+.main-content{
+    width:70%;
+    float:right;
+    background-color: coral;
+    height:500px;
+}

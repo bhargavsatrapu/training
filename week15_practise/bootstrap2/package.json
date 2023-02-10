@@ -1,0 +1,15 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "dvdfvdf",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "parcel": "^2.8.2"
+  }
+}

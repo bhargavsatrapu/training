@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prevent default</title>
+</head>
+
+<body>
+    <a
+        href="https://www.amazon.in/?&ext_vrnc=hi&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=58075519359&hvpone=&hvptwo=&hvadid=610780881833&hvpos=&hvnetw=g&hvrand=13589756137542736277&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007743&hvtargid=kwd-64107830&hydadcr=14452_2316413&gclid=Cj0KCQiA_bieBhDSARIsADU4zLfs1b2nXPRB2hUiDUEnmVbJ1W-49_MIBUbnNEHQfu36gAz1Ki4ysgoaAncgEALw_wcB">haii...</a>
+    <script>
+        let anchorElement = document.getElementsByTagName("a");
+        anchorElement[0].addEventListener("click", function (params) {
+            params.preventDefault();
+        })
+
+        anchorElement[0].addEventListener("click", function (params) {
+            alert("i am prevented")
+        })
+    </script>
+</body>
+
+</html>

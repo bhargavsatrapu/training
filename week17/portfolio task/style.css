@@ -1,0 +1,219 @@
+.containor {
+    width: 95%;
+    min-height: 1200px;
+    background-color: #FF69B4;
+    background-image: linear-gradient(to bottom right, #FF69B4, #ec21e2);
+    margin: 10px auto;
+    border-radius: 15px;
+    color: white;
+}
+
+.clearflex::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.about{
+    display:none;
+}
+
+.who-i_am {
+    min-height: 300px;
+    background-color: #1f0210;
+    border-radius: 5px;
+    color: white;
+    width: 60%;
+    float: left;
+}
+
+.about-image {
+    min-height: 300px;
+    background-color: inherit;
+    border-radius: 5px;
+    color: white;
+    width: 40%;
+    background-image: url("./reading.png");
+    float: left;
+}
+
+.my-image {
+    /* //width: 100%; */
+    height: 260px;
+    padding-left: 20px;
+}
+
+.my-services {
+    min-height: 200px;
+    background-color: #1f0210;
+    border-radius: 5px;
+    color: white;
+    display:none;
+}
+
+.services {
+    text-align: center;
+    padding: 10px;
+}
+
+.myself {
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 30px;
+    padding-left: 20px;
+}
+
+.designing {
+    min-height: 300px;
+    background-color: #b945e7;
+    border-radius: 5px;
+    width: 60%;
+    float: left;
+    margin: 15px;
+}
+
+.developing {
+    min-height: 300px;
+    background-color: #b945e7;
+    border-radius: 5px;
+    width: 60%;
+    float: right;
+    margin: 15px;
+}
+
+.testing {
+    min-height: 300px;
+    background-color: #b945e7;
+    border-radius: 5px;
+    width: 60%;
+    float: left;
+    margin: 15px;
+}
+
+.maintaining {
+    min-height: 300px;
+    background-color: #b945e7;
+    border-radius: 5px;
+    width: 60%;
+    float: right;
+    margin: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.cont-img {
+    padding-top: 40px;
+    border-radius: 15px;
+    float: right;
+}
+
+.nav-bar {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.nav-ul {
+    list-style-type: none;
+}
+
+.nav-ul>li {
+    display: inline-block;
+    width: 18%;
+    font-size: 22px;
+    padding-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #7d0ec7;
+    letter-spacing: 1px;
+}
+
+.cont-img1 {
+    padding-top: 40px;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+}
+
+.what-i-did {
+    min-height: 200px;
+    background-color: #1f0210;
+    border-radius: 5px;
+    color: white;
+    display: none;
+}
+
+.myTasks {}
+
+.view-button {
+    width: 55%;
+    height: 35px;
+    background-color: #c70e7a;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.tasks {
+    width: 30%;
+    float: left;
+    background-color: #ac6b17;
+    min-height: 200px;
+    margin: 1.5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact-us {
+    min-height: 400px;
+    display: none;
+}
+
+.contact-form {
+
+    padding: 0px 30px 30px 50px;
+}
+
+.submit-form {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.sub-input {
+    width: 23%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.textarea {
+    width: 23%;
+    height: 100px;
+}
+
+#wort-select {
+    width: 20%;
+}
+
+.submit-button {
+    text-align: center;
+    width: 20%;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.display{
+    display:"block";
+}

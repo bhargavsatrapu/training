@@ -1,0 +1,20 @@
+{
+  "postsWorks": [
+    {
+      "name": "akhil",
+      "email": "qwdqw",
+      "contact_number": "3212",
+      "work_type": "design",
+      "address": "saf",
+      "id": 1
+    },
+    {
+      "name": "bhargav",
+      "email": "bhargav@123",
+      "contact_number": "1234",
+      "work_type": "",
+      "address": "ajdhh",
+      "id": 2
+    }
+  ]
+}

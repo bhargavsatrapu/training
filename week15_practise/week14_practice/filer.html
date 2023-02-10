@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let ar=[10,3434,34244,4,324,343,43,3434,3,34,3,43,4,34,3,434,3,423,1211,3,3];
+
+        let passAr=ar.filter(testFunction);
+        
+        function testFunction(cValue,cIndex,arr){
+            return cIndex>10;
+        }
+
+        console.log(passAr);
+
+    </script>
+</body>
+</html>

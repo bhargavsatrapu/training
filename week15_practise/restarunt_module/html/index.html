@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaruntBilling</title>
+    <link rel="stylesheet" href="../css/rBilling.css">
+</head>
+<body>
+    <div class="containor">
+        <div class="header">
+            <div class="orders">
+                <p>orders</p>
+            </div>
+            <div class="current">
+                <p>current</p>
+            </div>
+            <div class="clearflex"></div>
+        </div>
+        <div class="container-body">
+            <div class="body-left">
+
+            </div>
+            <div class="body-right">
+                <div>
+                    <span>Table 5 | max</span>
+                    <span class="clear">clear</span>
+                </div>
+                <input type="text" class="ph_no">
+                <div>
+                    <table class="billing-table">
+                        <tbody>
+                            <tr>
+                                <th class="items">Item</th>
+                                <th class="quantity">Quantity</th>
+                                <th class="price">price</th>
+                            </tr>
+                        </tbody>
+                        <tbody class="orderd-items">
+
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>discount</td>
+                                <td><input type="text" value="0" onchange="dFunction()" class="dpercentage"></td>
+                                <td class="discount-amount">0</td>
+                            </tr>
+                            <tr>
+                                <td>taxes</td>
+                                <td></td>
+                                <td class="tax"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="order-submit">
+                        <div class="order-ticket">
+                            <p>Order Ticket</p>
+                        </div>
+                        <div class="charge">
+                            <p class="charge-amount"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearflex"></div>
+        </div>
+        <div class="container-body2">
+            <table class="billing-table">
+                <tr>
+                    <th>
+                        S.No
+                    </th>
+                    <th>
+                        order-ID
+                    </th>
+                    <th>
+                        customer-name
+                    </th>
+                    <th>
+                        total price
+                    </th>
+                    <th>
+                        view
+                    </th>
+                </tr>
+                <tbody class="billing-table-content">
+                  
+                </tbody>
+            </table>
+        </div>
+        <div class="popup-modal">
+            <div class="modal-header">
+                <span class="moal-heading">order summary..</span><span class="close-cross">&times;</span>
+                <div class="clearflex"></div>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../module/module1.js"></script>
+</body>
+
+</html>

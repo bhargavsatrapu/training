@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$foHJ8oPjHlXxwY8y.bVDueSd8J2lUHnEbcOV4be.u3mXEOYKt1FuG",
+      "id": 1
+    },
+    {
+      "email": "bhargav@mail.com",
+      "password": "$2a$10$kJqg.5bIaUr5X6itQ7O70uGF7zFQfbd8js6C1cMdndjVQoMlVPmZ6",
+      "id": 2
+    },
+    {
+      "email": "bhargsafav@mail.com",
+      "password": "$2a$10$yjaPojSAYAvaHgQeQHCAeOCveYLXbG4yWESB5vCMAwo0rfRMQRej.",
+      "id": 3
+    },
+    {
+      "email": "olivixer@mail.com",
+      "password": "$2a$10$enReLGHRYbrS9nzyeXpC3.VBnCN05r9W2TtEeafU5wsQDFD8Tl2De",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 4
+    },
+    {
+      "email": "olisdvixer@mail.com",
+      "password": "$2a$10$xURnBrOs2xPmRGgfDzhUQuOzwa3eSIFKjg43JLTiDi.7FhuvyuFVK",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 5
+    },
+    {
+      "email": "akhil@mail.com",
+      "password": "$2a$10$GmcMtgG9YZk8RHieTdWfV.LxmLaojcq8cqXvujgOR2g/J7fWxE7gi",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 6
+    },
+    {
+      "email": "lavanys@mail.com",
+      "password": "$2a$10$bUxsBHTuxka6UBk2OcaS7eN35yw9lMNO3whh8Wq7j323.GNSfJFQy",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 7
+    },
+    {
+      "email": "akhilrock9496@mail.com",
+      "password": "$2a$10$1e8SMKTZFZLTH9ttXKtSGuiji9Xz9MvY2ekui.66ZvRVQivd25VOS",
+      "id": 8
+    },
+    {
+      "email": "akhilrock9496@gmail.com",
+      "password": "$2a$10$PZtlR2BbWWe54ZwVrHs0aOi0mHADutEjltHllFhKzNmDrusJZ/VaC",
+      "id": 9
+    },
+    {
+      "email": "ramesh@mail.com",
+      "password": "$2a$10$cUHAizbOZwAmhd4a6VOuTOyZQQ/L2jEbPRT6JvTPv.q9Viyod8Flu",
+      "firstname": "Olivier",
+      "lastname": "sdfs",
+      "age": 32,
+      "id": 10
+    },
+    {
+      "email": "akhiaslrock9496@gmail.com",
+      "password": "$2a$10$OLiEU4oIGnFnR1LjcyWMTeZlPD.KextTiNgBYECz.yQlCaa5RaVWO",
+      "id": 11
+    }
+  ],
+  "posts": [
+    {
+      "name": "bhargav",
+      "class": "12 th",
+      "id": 2
+    }
+  ]
+}

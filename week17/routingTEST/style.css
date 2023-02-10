@@ -1,0 +1,14 @@
+
+ul{
+    display: flex;
+    list-style-type: none;
+    background-color: aqua;
+}
+
+li{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px 70px;
+}
+

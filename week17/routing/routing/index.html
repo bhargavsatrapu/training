@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <a href="#about">about</a>
+    <a href="#home">home</a>
+    <a href="#contact">contact</a>
+
+    <div class="render-div">
+
+    </div>
+
+    <script>
+        let renderDiv = document.querySelector(".render-div");
+
+        async function fetchApi(url) {
+            let response = await fetch(url);
+            return await response.text();
+        }
+
+        async function startingFun() {
+            renderDiv.innerHTML = await fetchApi("./view/about.html");
+        }
+        startingFun();
+
+        if (!location.hash) {
+            location.hash = "#about"
+        }
+
+        window.onhashchange = function () {
+            history.pushState({}, "", location.href)
+        }
+
+        window.onpopstate = async function () {
+            renderDiv.innerHTML = await fetchApi(`./view/${location.hash.slice(1)}.html`);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class APIService {
+            constructor(baseURL, token) {
+                this.baseURL = baseURL;
+                this.token = token;
+            }
+            async makeRequest(endpoint, method = "GET", body = null) {
+                try {
+                    const response = await fetch(`${this.baseURL}${endpoint}`, {
+                        method,
+                        headers: {
+                            "Authorization": `Bearer ${this.token}`,
+                            "Content-Type": "application/json"
+                        },
+                        body: body ? JSON.stringify(body) : null
+                    });
+                    const data = await response.json();
+                    if (!response.ok) {
+                        throw new Error(data.message);
+                    }
+                    console.log(data);
+                    return data;
+                } catch (error) {
+                    throw error;
+                }
+            }
+        }
+
+        let obj=new APIService("http://localhost:3000/600/users/9","eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFraGlscm9jazk0OTZAZ21haWwuY29tIiwiaWF0IjoxNjc1NDI2NDAxLCJleHAiOjE2NzU0MzAwMDEsInN1YiI6IjkifQ.hb02Kt33zIpzeUa9DDaU_CF_FF9_NZ4Gt_ekJziAW-A");
+
+        //  obj.makeRequest("/login",);
+    </script>
+</body>
+
+</html>

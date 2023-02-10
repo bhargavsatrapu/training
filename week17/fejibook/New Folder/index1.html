@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feujibook</title>
+</head>
+
+<body>
+
+    <script>
+        class ApiRequest {
+            constructor(accesToken) {
+                this.accesToken = accesToken;
+            }
+
+            async getApiData(URL) {
+                try {
+                    let response = await fetch(URL, {
+                        method: "GET",
+                        headers: {
+                            "Content-Type": "application/json",
+                            Authorization: `Bearer ${this.accesToken}`
+                        }
+                    })
+                    let data = await response.json();
+                    if (!response.ok) {
+                        throw new Error(data.message);
+                    }
+                   
+                    console.log(data);
+                    return data;
+                } catch (error) {
+                    throw error;
+                }
+            }
+
+            async postApiData(URL, body) {
+                try {
+                    let response = await fetch(URL, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                            Authorization: `Bearer ${this.accesToken}`
+                        },
+                        body: JSON.stringify(body)
+                    })
+                    let data = await response.json();
+                    if (!response.ok) {
+                        throw new Error(data.message);
+                    }
+                  
+                    console.log(data);
+                    return data;
+                } catch (error) {
+                    throw error;
+                }
+            }
+
+            async putApiData(URL, body) {
+                try {
+                    let response = await fetch(URL, {
+                        method: "PUT",
+                        headers: {
+                            "Content-Type": "application/json",
+                            Authorization: `Bearer ${this.accesToken}`
+                        },
+                        body: JSON.stringify(body)
+                    })
+                    let data = await response.json();
+                    if (!response.ok) {
+                        throw new Error(data.message);
+                    }
+                   
+                    console.log(data);
+                    return data;
+                } catch (error) {
+                    throw error;
+                }
+            }
+
+            async patchApiData(URL, body) {
+                try {
+                    let response = await fetch(URL, {
+                        method: "PATCH",
+                        headers: {
+                            "Content-Type": "application/json",
+                            Authorization: `Bearer ${this.accesToken}`
+                        },
+                        body: JSON.stringify(body)
+                    })
+                    let data = await response.json();
+                    if (!response.ok) {
+                        throw new Error(data.message);
+                    }
+                   
+                    console.log(data);
+                    return data;
+                } catch (error) {
+                    throw error;
+                }
+            }
+
+            async deleteApiData(URL) {
+                try {
+                    let response = await fetch(URL, {
+                        method: "DELETE",
+                        headers: {
+                            "Content-Type": "application/json",
+                            Authorization: `Bearer ${this.accesToken}`
+                        }
+                    })
+                    let data = await response.json();
+                    if (!response.ok) {
+                        throw new Error(data.message);
+                    }
+                    console.log(data);
+                    return data;
+                } catch (error) {
+                    throw error;
+                }
+            }
+        }
+
+        let obj = new ApiRequest("yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFraGlscm9jazk0OTZAZ21haWwuY29tIiwiaWF0IjoxNjc1NDgzMzY3LCJleHAiOjE2NzU0ODY5NjcsInN1YiI6IjkifQ.P7yV5tg3g7ib0dsDKEbzbbffpyzBptuALv5CEoUr0TQ");
+        obj.deleteApiData("http://localhost:3000/posts/1",{
+            age:"43",
+            class:"12 th"
+        });
+    </script>
+</body>
+
+</html>
